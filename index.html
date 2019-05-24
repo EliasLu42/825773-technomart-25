@@ -230,11 +230,37 @@
 		</section>
 
 		<section class="services">
-			
+			<p><h2>Сервисы</h2>
+			Хороший интернет-магазин отличается от плохого не только ценами!
+			Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
 
-
-
-
+			<ul class="services-list" aria-label="Список сервисов">
+				<li class="services-item">
+					<div class="delivery-button">
+						<a href="delivery.html" class="button">Доставка</a>
+						<p><span class="services-title">Доставка</span>  Мы с удовольствием доставим ваш товар прямо  к вашему подъезду совершенно бесплатно!Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
+						<img src="img/delivery.svg" alt="Иконка доставки">
+					</div>
+				</li>
+				<li class="services-item">
+					<div class="garanty-button">
+						<a href="garanty.html" class="button">Гарантия</a>
+						<p><span class="services-title">Гарантия</span>
+							Гарантия  Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцированного его возгаранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. Дом уж восстановите как-нибудь сами.
+						</p>
+						<img src="img/garanty.png" alt="Иконка гарантии"> 
+					</div>
+				</li>
+				<li class="services-item">
+					<div class="credit-button">
+						<a href="credit.html" class="button">Кредит</a>
+						<p><span class="services-title">Кредит</span>
+							Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.
+						</p>
+						<img src="img/credit.svg" alt="Иконка кредита"> 
+					</div>
+				</li>
+			</ul>
 		</section>
 
 
@@ -275,17 +301,39 @@
 			<!--Карта-->
 
 			<a href="writeUs.html">Заблудились? Напишите нам!</a>
+			<form action="" class="wtiteUsForm">
+				<p>
+					<label>
+						<input type="text" name="user-name"placeholder="Имя Фамилия">Ваше имя:
+					</label>
+				</p>
+
+				<p>
+					<label>
+						<input type="text" name="user-mail"placeholder="email@example.com">Ваш e-mail:
+					</label>
+				</p>
+
+				<p>
+					<label>
+						<input type="text" name="user-text"placeholder="В свободной форме">Текст письма:
+					</label>
+				</p>
+
+				<button type="submit">
+					Отправить
+				</button>
+
+			</form>
 		</section>
 	</main>
 
 	<footer class="main-footer">
 
 		<inner>
-		<img class="footer-logo" src="img/logo.svg" width="220px"
-  height="68px" alt="Логотип Техномарта">
-		
 		<div class="footer-navigation">
-			<img class="footer-logo" src="img/logo.svg" width="220px" height="68px" alt="Логотип Техномарта">
+			<a>
+			<img class="footer-logo" src="img/logo.svg" width="220px" height="68px" alt="Логотип Техномарта"></a>
 			<ul class="navigation-list1">
 				<li class="navigation-list1-item">
 					<a href="about-us.html">
@@ -319,8 +367,8 @@
 		<div class="">
 
 			<p class="contacts">
-			г. Санкт-Петербург, ул.Б.Конюшенная, д.19/8 <br>
-			+7 (812) 555-05-55
+			г. Санкт-Петербург, ул.Б.Конюшенная, д.19/8 
+			<span>+7 (812) 555-05-55</span>
 			</p>
 
 			<ul class="navigation-list2">
@@ -354,8 +402,8 @@
 			Все права защищены
 		</p>
 		
-		<section class="social" aria-label="Социальные сети" >
-			<ul class="icon-list">
+		
+			<ul class="icon-list" aria-label="Социальные сети" >
 				<li class="icon-item">
 					<a href="#" aria-label="Техномарт во Вконтанкте">
 					</a>
@@ -371,7 +419,6 @@
 					</a>
 				</li>
 			</ul>
-		</section>
 
 		<p class="links">Обратная связь:
 		<span>mail@htmlacademy.ru</span>
@@ -379,7 +426,7 @@
 
 		<p class="links">
 			Разработано —
-		<span><a href="https://htmlacademy.ru">htmlacademy.ru</a></span>
+		<a href="https://htmlacademy.ru">htmlacademy.ru</a>
 		</p>
 	</div>
 
