@@ -1,0 +1,170 @@
+body > * { background: rgba(255, 0, 0, 0.3); } 
+body > * > * { background: rgba(255, 255, 0, 0.3); } 
+body > * > * > * { background: rgba(0, 0, 255, 0.3); } 
+body > * > * > * > * { background: rgba(0, 255, 255, 0.3); }
+
+body {
+	margin: 0;
+	font-family: "Cuprum", Arial, sans-serif;
+	background: #ffffff;
+
+}
+a{
+	text-decoration: none;
+}
+h1 {
+	font-size: 16px;
+}
+.header-top a,
+.header-bottom a,
+.perforator-price,
+.perforator-past-price{
+	font-size: 17px;
+	color: black;
+}
+.contacts p,
+.writeUs,
+.aboutUs {
+	font-size: 14px;
+}
+.number,
+.header-middle .login-registration a,
+.services-item a {
+	font-size: 21px;
+	color: black;
+}
+
+.number {
+	color: #ee3643;
+}
+
+.navigation-list1, 
+.navigation-list2,
+.services-list,
+.manufacturers-list,
+.popular-products-list,
+.top-navigation,
+.login-registration,
+.bottom-navigation,
+.banners-list,
+.icon-list  {
+	list-style: none;
+}
+
+.banner-list h3{
+	font-size: 24px;
+}
+
+.banners-list .button {
+	font-size: 14px;
+	color: black;
+}
+
+h2 {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.popular a {
+	font-size: 14px;
+	color: black;
+}
+
+.popular-products-list a span {
+	font-family: "PT Sans", arial, sans-serif;
+	color: black;
+}
+
+.perforator {
+	font-size: 18px;
+}
+
+.navigation-list2 a{
+	color: #ffd180;
+}
+
+.navigation-list1 a{
+	color: black;
+}
+
+.links a,
+.writeUs,
+.aboutUs,
+.open-catalog a{
+	color: black;
+}
+
+.logo {
+	width: 220px;
+	height: 47px;
+	
+}
+
+
+
+.main-header {
+	background: #f3f7f9;
+	margin-bottom: 59px;
+
+}
+
+.main-navigation{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+
+}
+.container{
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+
+}
+
+.header-top {
+	display: flex;
+	margin-bottom: 46px;
+		justify-content: space-between;
+}
+
+
+
+/*.flex-wrapper-top {
+	display: flex;
+
+	margin-top: 5px; 
+}*/
+
+.top-navigation {
+	margin: 0;
+	padding: 0;
+}
+
+.bottom-navigation {
+	margin: 0;
+	padding: 0;
+
+}
+
+.login-registration {
+	margin: 0;
+	padding: 0;
+}
+
+.header-middle {
+	display: flex;
+	margin-bottom: 45px;
+	margin-bottom: 44px;
+	justify-content: space-between;
+}
+
+.header-bottom {
+	display: flex;
+}
+
+.bottom-navigation {
+	display: flex;
+	
+}
+
