@@ -1,4 +1,4 @@
-body > * { background: rgba(255, 0, 0, 0.3); } 
+ body > * { background: rgba(255, 0, 0, 0.3); } 
 body > * > * { background: rgba(255, 255, 0, 0.3); } 
 body > * > * > * { background: rgba(0, 0, 255, 0.3); } 
 body > * > * > * > * { background: rgba(0, 255, 255, 0.3); }
@@ -96,12 +96,12 @@ h2 {
 
 .logo {
 	width: 220px;
-	height: 47px;
+	height: 42px;
 }
 
 .main-header {
 	background: #f3f7f9;
-	margin-bottom: 59px;
+	margin-bottom: 60px;
 }
 
 .main-navigation {
@@ -120,12 +120,25 @@ h2 {
 	display: flex;
 	margin-bottom: 46px;
 	justify-content: space-between;
+	height: 42px;
 }
 
+.search {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.list {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
 
 .top-navigation {
 	margin: 0;
 	padding: 0;
+	display: flex;
+	width: 460px;
+	justify-content: space-between;
 }
 
 .bottom-navigation {
@@ -148,9 +161,14 @@ h2 {
 
 .header-bottom {
 	display: flex;
+	margin-bottom: 60px;
 }
 
 .bottom-navigation {
 	display: flex;
 }
 
+.top-navigation-item {
+	margin-left: 55px;
+	margin-right: 21px;
+}
