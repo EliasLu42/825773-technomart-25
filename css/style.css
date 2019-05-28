@@ -7,9 +7,9 @@ body {
 	margin: 0;
 	font-family: "Cuprum", Arial, sans-serif;
 	background: #ffffff;
-
 }
-a{
+
+a {
 	text-decoration: none;
 }
 h1 {
@@ -28,7 +28,7 @@ h1 {
 	font-size: 14px;
 }
 .number,
-.header-middle .login-registration a,
+.login-registration a,
 .services-item a {
 	font-size: 21px;
 	color: black;
@@ -70,8 +70,8 @@ h2 {
 	color: black;
 }
 
-.popular-products-list a span {
-	font-family: "PT Sans", arial, sans-serif;
+.popular-products-list a {
+	font-family: "PT Sans", Arial, sans-serif;
 	color: black;
 }
 
@@ -79,62 +79,49 @@ h2 {
 	font-size: 18px;
 }
 
-.navigation-list2 a{
+.navigation-list2 a {
 	color: #ffd180;
 }
 
-.navigation-list1 a{
+.navigation-list1 a {
 	color: black;
 }
 
 .links a,
 .writeUs,
 .aboutUs,
-.open-catalog a{
+.open-catalog a {
 	color: black;
 }
 
 .logo {
 	width: 220px;
 	height: 47px;
-	
 }
-
-
 
 .main-header {
 	background: #f3f7f9;
 	margin-bottom: 59px;
-
 }
 
-.main-navigation{
+.main-navigation {
 	align-items: center;
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-
 }
-.container{
+.container {
 	width: 940px;
 	margin: 0 auto;
 	padding: 0 10px;
-
 }
 
 .header-top {
 	display: flex;
 	margin-bottom: 46px;
-		justify-content: space-between;
+	justify-content: space-between;
 }
 
-
-
-/*.flex-wrapper-top {
-	display: flex;
-
-	margin-top: 5px; 
-}*/
 
 .top-navigation {
 	margin: 0;
@@ -165,6 +152,5 @@ h2 {
 
 .bottom-navigation {
 	display: flex;
-	
 }
 
