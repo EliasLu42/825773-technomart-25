@@ -113,7 +113,7 @@ h2 {
 
 .main-header {
 	background: #f3f7f9;
-	margin-bottom: 60px;
+	margin-bottom: 55px;
 }
 
 .main-navigation {
@@ -132,25 +132,14 @@ h2 {
 	display: flex;
 	margin-bottom: 46px;
 	justify-content: space-between;
-	height: 42px;
 	width: 100%;
 	background-color: #293449;
 }
 
 .search {
-	margin-top: 12px;
+	margin-top: 10px;
 	margin-bottom: 12px;
 	color: white;
-}
-
-
-.order-button {
-	background-color: #63a63e;
-	padding-left: 22px;
-	padding-right: 22px;
-	padding-top: 14px;
-	padding-bottom: 10px;
-	
 }
 
 h1 {
@@ -180,7 +169,7 @@ h1 {
 }
 
 .list {
-	margin-top: 12px;
+	margin-top: 10px;
 	margin-bottom: 12px;
 }
 
@@ -204,7 +193,6 @@ h1 {
 }
 
 .header-bottom {
-
 	margin-bottom: 60px;
 	background-color: #32425c;
 }
@@ -222,16 +210,47 @@ h1 {
 
 .top-navigation-item {
 	margin-left: 50px;
-	margin-right: 90px;
+	margin-right: 40px;
 }	
 
-.bag {
-	margin-left: -10px;
-	/*разобраться с отступом*/
+.order-button {
+	background-color: #63a63e;
+	padding: 11px 20px;
+
 }
+
+.bag{
+	margin-right: 30px;
+}
+
+.top-navigation-item .basket {
+	position: relative;
+	padding-left: 40px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	/*background-color: black;*/
+}
+
+.basket::before {
+	content: "";
+	position: absolute;
+	top: 22px;
+	left: 10px;
+
+	width: 15px;
+	height: 15px;
+	
+
+	background-image: url("../svg-technomart/icon-cart.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	opacity: 0.5;
+}
+
 .top-navigation :last-child {
-	margin-right: 11px;
-	margin-left: 3px;
+/*	margin-right: 11px;*/
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 .login-registration {
