@@ -216,7 +216,6 @@ h1 {
 .order-button {
 	background-color: #63a63e;
 	padding: 11px 20px;
-
 }
 
 .bag{
@@ -228,7 +227,6 @@ h1 {
 	padding-left: 40px;
 	padding-bottom: 20px;
 	padding-top: 20px;
-	/*background-color: black;*/
 }
 
 .basket::before {
@@ -236,11 +234,8 @@ h1 {
 	position: absolute;
 	top: 22px;
 	left: 10px;
-
 	width: 15px;
 	height: 15px;
-	
-
 	background-image: url("../svg-technomart/icon-cart.svg");
 	background-repeat: no-repeat;
 	background-position: 0 0;
@@ -248,7 +243,6 @@ h1 {
 }
 
 .top-navigation :last-child {
-/*	margin-right: 11px;*/
 	margin-left: 0px;
 	margin-right: 0px;
 }
@@ -263,7 +257,6 @@ h1 {
 	list-style: none;
 	display: flex;
 	flex-direction: row;
-
 }
 
 
@@ -283,4 +276,28 @@ h1 {
 	padding-top: 10px;
 	padding-bottom: 9px;
 	margin-right: 10px;
+}
+
+.flex-container {
+	/*display: flex;*/
+}
+
+.banners-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.banners-item {
+	background-color: white;
+	height: 123px;
+	width: 300px;
+}
+
+.banners-list :nth-child(5) {
+	margin-left: 67%;
+}
+
+.banners-list :nth-child(4) {
+	margin-left: 67%;
 }
