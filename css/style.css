@@ -278,10 +278,6 @@ h1 {
 	margin-right: 10px;
 }
 
-.flex-container {
-	/*display: flex;*/
-}
-
 .banners-list {
 	display: flex;
 	flex-wrap: wrap;
@@ -292,12 +288,48 @@ h1 {
 	background-color: white;
 	height: 123px;
 	width: 300px;
+	margin-left: -40px;
 }
 
+.banners-item h3 {
+	margin-top: 24px;
+	margin-left: 23px;
+	font-size: 24px;
+	margin-bottom: 0px;
+}
+
+
+
+.banners-item .button {
+	display: flex;
+	box-sizing: border-box;
+	margin-left: 23px;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin-top: 14px;
+	background-color: #e5e5e5;
+	text-transform: uppercase;
+	width: 135px;
+	min-height: 38px;
+}
+ 
 .banners-list :nth-child(5) {
-	margin-left: 67%;
+	margin-left: 66.5%;
+	margin-top: 20px;
 }
 
 .banners-list :nth-child(4) {
-	margin-left: 67%;
+	margin-left: 66.5%;
+	margin-top: 20px;
+}
+
+.slider-banners-container {
+	position: relative;
+}
+.slider {
+	position: relative;
+	bottom: 0px;
+	height: 266px;
+	width: 620px;
 }
