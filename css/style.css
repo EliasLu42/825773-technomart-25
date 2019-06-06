@@ -328,7 +328,7 @@ h1 {
 	position: relative;
 }
 .slider {
-	position: relative;
+	position: absolute;
 	bottom: 0px;
 	height: 266px;
 	width: 620px;
