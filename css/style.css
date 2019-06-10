@@ -362,6 +362,7 @@ h2 {
 	margin-top: -7px;
 	background-color: red;
 	color: #fff;
+	border-radius: 3px;
 }
 
 .popular-products-list {
@@ -492,4 +493,27 @@ h2 {
 
 .popular-products-item:hover .actions {
 	display: block;
+}
+
+.all-manufacturers {
+	box-sizing: border-box;
+	min-width: 253px;
+	min-height: 38px;
+	text-align: center;
+}
+
+.manufacturers-list {
+	padding: 0px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.manufacturers-item {
+	box-sizing: border-box;
+	width: 220px;
+	height: 145px;
+	text-align: center;
+	border: solid 1px;
+	border-color: #ebebeb
 }
