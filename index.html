@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
-    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700|PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700i|PT+Sans:400,700i&display=swap" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
@@ -12,25 +12,28 @@
 
   		<nav class="main-navigation">
 
-			<div class="container">
+
   			<div class="header-top">
-				
+					<div class="container-header-top">
 				<a>
   			<div class="logo-box">
 
-  				<img class="logo" src="img/logo.svg"  alt="Логотип техномарта">
+  				<img class="logo" src="svg-technomart/logo-technomart.svg"  alt="Логотип техномарта">
 				</div>
   			</a>
 
   			<div class="search">
-					Поиск:<input type="text" name="" id="">
+				<input type="text" class="colortext" name="" id="search" placeholder="Поиск:" width="270" height="42">
 					<!--Форма-->
 				</div>
 				<div class="list">
+
   			<ul class="top-navigation">
+  				<div class="bookmarks-container">
   				<li class="top-navigation-item">
-  					<a href="bookmarks.html">Закладки:</a>
+  					<a class="bookmarks"	href="bookmarks.html">Закладки:</a>
   				</li>
+  				</div>
 
   				<div class="bag">
   				<li class="top-navigation-item">
@@ -44,12 +47,12 @@
   							Оформить заказ
   					</a>
   				</li>
-  				
   			</ul>
   			</div>
   			</div>
+  		</div>
 			
-
+			<div class="container">
 				<div class="header-middle">
   			<h1>
   				Интернет-магазин <br>
@@ -107,42 +110,42 @@
   		</nav>
   	</header>
 
-	<main class="container">
-
+	<main>
+		<div class="container">
 		<div class="slider-banners-container">
 		<section class="banners">
 			<ul class="banners-list">
 
-				<li class="banners-item">
-					<!-- <img src="img/ribbon.svg" alt="Ленточка new"> -->
+				<li class="banners-item materials">
+					<div class="flag flag-new">новинка</div>
 						<h3>Материалы</h3>
 						<a class="button" href="materials.html">
 						На любой вкус
 					</a>
 				</li>
 
-				<li class="banners-item">
+				<li class="banners-item instruments">
 					<h3>Инструмент</h3>
 					<a class="button" href="instruments.html">
 					На все случаи
 					</a>
 				</li>
 
-				<li class="banners-item">
+				<li class="banners-item technics">
 					<h3>Техника</h3>
 					<a class="button" href="equipments.html">
 					Для стройки
 					</a>
 				</li>
 
-				<li class="banners-item">
+				<li class="banners-item discount">
 					<h3>Скидки 50%</h3>
 					<a class="button" href="discounts.html">
 					На 350 товаров
 					</a>
 				</li>
 
-				<li class="banners-item">
+				<li class="banners-item delivery">
 					<h3>Доставка</h3>
 					<a class="button" href="delivery.html">
 					Бесплатно
@@ -195,8 +198,6 @@
 						<div class="perforator">Перфоратор BOSCH BFG 9000</div>
 						<div class="perforator-past-price">32500 Р.</div>
 						<div class="perforator-price">25500 Р.</div>
-					
-					
 				</li>
 
 				<li class="popular-products-item">
@@ -208,7 +209,6 @@
 						<div class="perforator">Перфоратор BOSCH BFG 3000</div>
 						<div class="perforator-past-price">22500 Р.</div>
 						<div class="perforator-price">15500 Р.</div>
-					
 				</li>
 
 				<li class="popular-products-item">
@@ -231,7 +231,7 @@
 						<div class="image"><img src="img/perforator-1.jpg" alt="Перфоратор 4"></div>
 						<div class="perforator">Перфоратор BOSCH BFG 2000</div>
 						<div class="perforator-price">12500 Р.</div>
-				</li>
+				</li> 
 			</ul>
 		</section>
 
@@ -242,52 +242,53 @@
 					Все производители
 				</a>
 			</div>
-			<ul class="manufacturers-list">
-				<li class="manufacturers-item">
-					<a href="#">
+			<div class="manufacturers-list">
+				<div class="manufacturers-item">
+					<a  class="manufacturers-img" href="#">
 						<img src="img/bosch.png" alt="BOSCH">
 					</a>
-				</li>
-					<li class="manufacturers-item">
+				</div>
+				<div class="manufacturers-item">
 					<a href="#">
 						<img src="img/Makita.png" alt="makita">
 					</a>
-				</li>
-					<li class="manufacturers-item">
+				</div>
+				<div class="manufacturers-item">
 					<a href="#">
 						<img src="img/DeWALT.png" alt="DeWalt">
 					</a>
-				</li>
-					<li class="manufacturers-item">
+				</div>
+				<div class="manufacturers-item">
 					<a href="#">
 						<img src="img/Интерскол.png" alt="Интерскол">
 					</a>
-				</li>
-					<li class="manufacturers-item">
+				</div>
+				<div class="manufacturers-item">
 					<a href="#">
 						<img src="img/Hitachi.png" alt="hitachi">
 					</a>
-				</li>
-					<li class="manufacturers-item">
+				</div>
+				<div class="manufacturers-item">
 					<a href="#">
 						<img src="img/LG.png" alt="LG">
 					</a>
-				</li>
-					<li class="manufacturers-item">
+				</div>
+				<div class="manufacturers-item">
 					<a href="#">
 						<img src="img/AEG.png" alt="AEG">
 					</a>
-				</li>
-					<li class="manufacturers-item">
+				</div>
+					<div class="manufacturers-item">
 					<a href="#">
 						<img src="img/Metabo.png" alt="metabo">
 					</a>
-				</li>
-			</ul>
+				</div>
+			</div>
 		</section>
-
+		</div>
 		<section class="services">
-			<p><h2>Сервисы</h2>
+			<div class="container">
+			<p class="titleAndTextServices"><h2>Сервисы</h2>
 			Хороший интернет-магазин отличается от плохого не только ценами!
 			Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
 
@@ -318,6 +319,7 @@
 					</div>
 				</li>
 			</ul>
+			<div>
 		</section>
 
 
