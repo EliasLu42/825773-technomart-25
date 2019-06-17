@@ -140,50 +140,59 @@ h2 {
 }
 
 .search {
-	position: absolute;
-	margin-bottom: 12px;
+	position: relative;
+	/*width: 225px;*/
+	/*height: 40px;*/
+	margin-left: -36px;
 	color: white;
 	font-size: 17px;
-	margin-left: 218px;
 }
 
-.search input {
-	position: relative;
-	padding-left: 50px;
+.search_label {
+	font-size: 0;
 }
 
-#search-id {
-	width: 225px;
-	height: 40px;
-}
-
-.search input::before {
-	content: "";
+.search_label::before {
 	position: absolute;
-	top: 12px;
-	left: 17px;
+	display: block;
+	content: "";
 	width: 17px;
 	height: 17px;
+	top: 12px;
+	left: 17px;
 	background-image: url("../svg-technomart/icon-search.svg");
 	background-repeat: no-repeat;
-	background-position: 0 0;
-	opacity: 1;
+	background-position: 0 0 ;
+	opacity: 0.5;
 }
 
 .search input {
-	outline: none;
-	border:0px;
+	/*width: 160px;*/
+	line-height: 40px;
+	position: relative;
+	padding-left: 49px;
+	border: 0px;
 	font-size: 17px;
 	font-family: "Cuprum", sans-serif;
 	background-color: rgba(0,0,0,0.0);
 }
 
-.search input:focus::before {
+.search input:focus + label:before {
+	background-image: url(..//img/icon-search2.png);
+	background-repeat: no-repeat;
+	opacity: 1;
+}
+
+.search input:focus {
 	background-color: white;
 }
 
 .search input[type="text"]::placeholder {
 	color: white;
+}
+
+.search input:hover + label:before {
+	opacity: 1;
 }
 
 h1 {
