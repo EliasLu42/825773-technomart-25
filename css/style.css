@@ -5,7 +5,7 @@ body > * > * > * > * { background: rgba(0, 255, 255, 0.3); }
 
 body {
 	margin: 0;
-	font-family: "Cuprum", Arial, sans-serif;
+	font-family: "Cuprum", PT Sans, sans-serif;
 	background: #ffffff;
 }
 
@@ -125,33 +125,104 @@ h2 {
 	padding: 0 10px;
 }
 
-.header-top {
+.container-header-top {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
 	display: flex;
-	margin-bottom: 46px;
 	justify-content: space-between;
+}
+
+.header-top {
+	margin-bottom: 46px;
 	width: 100%;
 	background-color: #293449;
 }
 
 .search {
-	margin-top: 10px;
+	position: relative;
 	margin-bottom: 12px;
 	color: white;
+	font-size: 17px;
+	margin-left: -260px;
 }
 
+/*.search input {
+	position: absolute;
+	padding-left: 50px;
+	z-index: 2;
+}*/
+
+#search {
+	width: 225px;
+	height: 40px;
+
+}
+
+.search input {
+	position: relative;
+}
+
+.search input:before {
+	content: "";
+	position: absolute;
+	z-index: 3;
+	top: 12px;
+	left: 17px;
+	width: 17px;
+	height: 17px;
+	background-image: url("../svg-technomart/icon-search.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	opacity: 0.5;
+}
+
+.search input {
+	outline: none;
+	border:0px;
+	font-size: 17px;
+	font-family: "Cuprum", sans-serif;
+	background-color: rgba(0,0,0,0.0);
+}
+
+.search input:focus {
+	background-color: white;
+}
+
+.search div:focus {
+
+}
+
+.search input[type="text"] {
+	font-family: "Cuprum", sans-serif;
+	color: black;
+}
+
+.search input[type="text"]::placeholder {
+	color: white;
+}
 h1 {
-	margin-top: 8px;
+	margin-top: 5px;
 	margin-left: 53px;
 	font-size: 16px;
 	font-style: italic;
 	line-height: 23px;
 	color: red;
+	line-height: 1.44;
+	font-weight: normal;
+	font-family: "Cuprum", sans-serif;
+	font-stretch: normal;
+	text-align: left;
+	width: 197px;
+  height: 60px;
+
 }
 .number {
 	border: 3px solid white;
 }
 .contacts {
-	margin-left: 76px;
+	margin-left: 70px;
+	margin-right: -0.3px;
 }
 .contacts p{
 	margin-top: 7px;
@@ -216,13 +287,13 @@ h1 {
 }
 
 .bag{
-	margin-right: 30px;
+	margin-right: -5px;
 }
 
 .top-navigation-item .basket {
 	position: relative;
 	padding-left: 40px;
-	padding-bottom: 20px;
+	padding-bottom: 12px;
 	padding-top: 20px;
 }
 
@@ -239,6 +310,31 @@ h1 {
 	opacity: 0.5;
 }
 
+.bookmarks-container {
+	margin-left: 15px;
+}
+
+.bookmarks {
+	position: relative;
+	padding-left: 40px;
+	padding-bottom: 12px;
+	padding-top: 20px;
+	padding-right: auto;
+}
+
+.bookmarks::before {
+	content: "";
+	position: absolute;
+	width: 14px;
+	height: 16px;
+	background-image: url("..//svg-technomart/icon-bookmark.svg");
+	left: 12px;
+	top: 22px;
+	opacity: 0.5;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
 .top-navigation :last-child {
 	margin-left: 0px;
 	margin-right: 0px;
@@ -246,7 +342,7 @@ h1 {
 
 .login-registration {
 	margin: 0px;
-	margin-left: 26px;
+	margin-left: 30px;
 }
 
 .login-registration-list {
@@ -267,27 +363,144 @@ h1 {
 
 
 .login-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
 	background-color: white;
-	padding-left: 48px;
-	padding-right: 27px;
-	padding-top: 10px;
-	padding-bottom: 9px;
+	width: 120px;
+	height: 45px;
 	margin-right: 10px;
+}
+
+.login-link a {
+	margin-right: -25px;
+}
+
+.login-link::before {
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 17px;
+	background-image: url("..//svg-technomart/icon-login.svg");
+	left: 15px;
+	top: 14px;
+	opacity: 0.5;
+	background-repeat: no-repeat;
+	background-position: 0 0;
 }
 
 .banners-list {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	color: white;
 }
 
 .banners-item {
-	background-color: white;
 	height: 123px;
 	width: 300px;
 	margin-left: -40px;
 }
 
+.materials::before {
+	content: "";
+	position: absolute;
+	top: 31px;
+	right: 43px;
+	width: 44px;
+	height: 65px;
+	background-image: url("../svg-technomart/icon-1.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.instruments::before {
+	content: "";
+	position: absolute;
+	top: 35px;
+	right: 28px;
+	width: 75px;
+	height: 61px;
+	background-image: url("../svg-technomart/icon-2.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.technics::before {
+	content: "";
+	position: absolute;
+	top: 32px;
+	right: 30px;
+	width: 78px;
+	height: 62px;
+	background-image: url("../svg-technomart/icon-3.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.discount::before {
+	content: "";
+	position: absolute;
+	top: 29px;
+	right: 43px;
+	width: 59px;
+	height: 72px;
+	background-image: url("../svg-technomart/icon-4.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.delivery::before {
+	content: "";
+	position: absolute;
+	top: 35px;
+	right: 28px;
+	width: 78px;
+	height: 63px;
+	background-image: url("../svg-technomart/icon-5.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.banners-list li:nth-child(1) {
+	position: relative;
+	background-color: #ffbf47;
+}
+
+.banners-list li:nth-child(1) .flag {
+	position: absolute;
+  top: 0px;
+  right: -1px;
+  width: 60px;
+  height: 60px;
+  text-indent: -1000px;
+  overflow: hidden;
+  z-index: 20;
+}
+
+.banners-list li:nth-child(1) .flag-new {
+	background: url("../img/new-flag.png") no-repeat 0 0 ;
+} 
+
+
+
+.banners-list li:nth-child(2) {
+	position: relative;
+	background-color: #3bbce3
+}
+.banners-list li:nth-child(3) {
+	position: relative;
+	background-color: #dc91d8
+}
+.banners-list li:nth-child(4) {
+	position: relative;
+	background-color: #8ed78f
+}
+.banners-list li:nth-child(5) {
+	position: relative;
+	background-color: #ffc047
+}
 .banners-item h3 {
 	margin-top: 24px;
 	margin-left: 23px;
@@ -295,18 +508,19 @@ h1 {
 	margin-bottom: 0px;
 }
 
-
-
 .banners-item .button {
 	display: flex;
+	/*opacity: 0.1;*/
+	color: white;
 	box-sizing: border-box;
 	margin-left: 23px;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
 	margin-top: 14px;
-	background-color: #e5e5e5;
+	background-color:rgba(0,0,0,0.1);
 	text-transform: uppercase;
+	border-radius: 3px;
 	width: 135px;
 	min-height: 38px;
 }
@@ -340,14 +554,13 @@ h2 {
 .popular {
 	display: flex;
 	justify-content: space-between;
-	/*text-align: center;*/
 	background-color: #f9f5f0;
 	padding-left: 30px;
 	padding-right: 24px;
 	padding-top: 33px;
-	padding-bottom: 20px;
+	padding-bottom: 22px;
 	box-sizing: border-box;
-	margin-bottom: 28px;
+	margin-bottom: 24px;
 }
 
 .popular h2 {
@@ -367,24 +580,32 @@ h2 {
 
 .popular-products-list {
 	padding: 0px;
-	display: flex;
-	justify-content: space-between;
 	margin-bottom: 0px;
+	width: 940px;
+}
+
+.popular-products-list li:nth-child(4n) {
+	margin-right: 0px;
 }
 
 .popular-products-item {
 	position: relative;
   display: inline-block;
-  width: 220px;
+  width: 218px;
   height: 316px;
   margin-right: 20px;
   margin-bottom: 20px;
   line-height: 20px;
   font-weight: bold;
   text-align: center;
-  border: solid 1.2px #eaeaea;
+  border: solid 1px #eaeaea;
   background-color: #ffffff;
 }
+
+.popular-products-list {
+	font-size: 0;
+}
+
 
 .popular-products-item img {
 	width: 100%;
@@ -417,7 +638,7 @@ h2 {
 
 .popular-products-list :nth-child(4) .flag {
 	position: absolute;
-  top: -1px;
+  top: -2px;
   right: -1px;
   width: 60px;
   height: 60px;
@@ -503,17 +724,48 @@ h2 {
 }
 
 .manufacturers-list {
-	padding: 0px;
 	display: flex;
-	justify-content: space-between;
+	padding: 0px;
 	flex-wrap: wrap;
+	width: 940px;
 }
 
 .manufacturers-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	box-sizing: border-box;
+	margin-top: 20px;
+	margin-right: 20px;
 	width: 220px;
 	height: 145px;
-	text-align: center;
 	border: solid 1px;
-	border-color: #ebebeb
+	border-color: #ebebeb;
+}
+
+.manufacturers-list :nth-child(4n) {
+	margin-right: 0px;
+}
+.manufacturers-list div:nth-child(1),
+.manufacturers-list div:nth-child(2),
+.manufacturers-list div:nth-child(3),
+.manufacturers-list div:nth-child(4) {
+	margin-top: 0px;
+}
+
+.services {
+	margin-top: 86px;
+	background: #f3f7f9;
+	width: 100%;
+}
+
+.services h2 {
+	font-weight: 100;
+	margin: 0px;
+	border: 0px;
+	
+}
+
+.titleAndTextServices {
+	margin-top: 68px;
 }
