@@ -1,8 +1,8 @@
-body > * { background: rgba(255, 0, 0, 0.3); } 
+/*body > * { background: rgba(255, 0, 0, 0.3); } 
 body > * > * { background: rgba(255, 255, 0, 0.3); } 
 body > * > * > * { background: rgba(0, 0, 255, 0.3); } 
 body > * > * > * > * { background: rgba(0, 255, 255, 0.3); }
-
+*/
 body {
 	margin: 0;
 	font-family: "Cuprum", PT Sans, sans-serif;
@@ -141,9 +141,7 @@ h2 {
 
 .search {
 	position: relative;
-	/*width: 225px;*/
-	/*height: 40px;*/
-	margin-left: -36px;
+	height: 40px;
 	color: white;
 	font-size: 17px;
 }
@@ -167,8 +165,8 @@ h2 {
 }
 
 .search input {
-	/*width: 160px;*/
 	line-height: 40px;
+	width: 210px;
 	position: relative;
 	padding-left: 49px;
 	border: 0px;
@@ -251,13 +249,14 @@ h1 {
 
 .header-middle {
 	display: flex;
-	margin-bottom: 22px;
+	margin-bottom: 29px;
 }
 
 .header-bottom {
 	margin-bottom: 60px;
 	background-color: #32425c;
 }
+
 
 .bottom-navigation {
 	display: flex;
@@ -267,7 +266,7 @@ h1 {
 	margin-right: 55px;
 	justify-content: space-between;
 	padding-bottom: 23px;
-	padding-top: 22px;
+	padding-top: 18px;
 }
 
 .top-navigation-item {
@@ -278,6 +277,14 @@ h1 {
 .order-button {
 	background-color: #63a63e;
 	padding: 11px 20px;
+}
+
+.order-button:hover {
+	background-color: #5fbb2d;
+}
+
+.order-button:active {
+	opacity: 0.5;
 }
 
 .bag{
@@ -304,6 +311,14 @@ h1 {
 	opacity: 0.5;
 }
 
+ .basket:hover::before {
+	opacity: 1;	
+}
+
+.basket:active  {
+	opacity: 0.5;
+}
+
 .bookmarks-container {
 	margin-left: 15px;
 }
@@ -327,6 +342,14 @@ h1 {
 	opacity: 0.5;
 	background-repeat: no-repeat;
 	background-position: 0 0;
+}
+
+ .bookmarks:hover::before {
+	opacity: 1;	
+}
+
+.bookmarks:active {
+	opacity: 0.5;
 }
 
 .top-navigation :last-child {
@@ -389,6 +412,7 @@ h1 {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	color: white;
+	margin-top: 58px;
 }
 
 .banners-item {
@@ -737,6 +761,10 @@ h2 {
 	border-color: #ebebeb;
 }
 
+.manufacturers {
+	margin-bottom: 86px;
+}
+
 .manufacturers-list :nth-child(4n) {
 	margin-right: 0px;
 }
@@ -748,18 +776,66 @@ h2 {
 }
 
 .services {
-	margin-top: 86px;
 	background: #f3f7f9;
 	width: 100%;
+	padding-top: 10px;
+	margin-bottom: 75px;
 }
 
-.services h2 {
+.container-services h2 {
 	font-weight: 100;
 	margin: 0px;
-	border: 0px;
-	
+	border: 0px;	
+	margin-top: 51px;
 }
 
 .titleAndTextServices {
-	margin-top: 68px;
+	margin: 0px;
+	width: 400px;
+	font-family: "Cuprum Regular", Cuprum, sans-serif;
+	font-size: 14px;
+	margin-top: 25px;
+	line-height: 1.75;
+	font-weight: normal;
+	letter-spacing: 0.26px;
+}
+.container-services {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.container-about_us {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.about_us .title {
+	font-family: "Cuprum", Cuprum, sans-serif;
+	font-weight: 100;
+	font: normal;
+	font-size: 30px;
+}
+
+.about_us p {
+	font-family: "Cuprum", sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	letter-spacing: 0.01px;
+	line-height: 1.75;
+}
+
+.about-company {
+	width: 535px;
+	height: 320px;
+}
+
+.text1 {
+	margin-top: 25px;
+	margin-bottom: 0px;
+}
+
+.text2 {
+	margin-top: 21px;
 }
