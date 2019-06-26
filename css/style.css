@@ -205,11 +205,13 @@ h1 {
 	font-family: "Cuprum", sans-serif;
 	font-stretch: normal;
 	text-align: left;
-	width: 197px;
+	width: 200px;
   height: 60px;
 
 }
 .number {
+	width: 264px;
+	height: 39px;
 	border: 3px solid white;
 }
 .contacts {
@@ -249,7 +251,7 @@ h1 {
 
 .header-middle {
 	display: flex;
-	margin-bottom: 29px;
+	margin-bottom: 22px;
 }
 
 .header-bottom {
@@ -268,6 +270,14 @@ h1 {
 	padding-bottom: 23px;
 	padding-top: 18px;
 }
+
+.navigation-item a{
+/*	padding-top: 18px;
+	padding-bottom: 23px;
+	padding-left: 10px;*/
+
+}
+
 
 .top-navigation-item {
 	margin-left: 50px;
@@ -356,6 +366,7 @@ h1 {
 	margin-left: 0px;
 	margin-right: 0px;
 }
+
 
 .login-registration {
 	margin: 0px;
@@ -528,7 +539,6 @@ h1 {
 
 .banners-item .button {
 	display: flex;
-	/*opacity: 0.1;*/
 	color: white;
 	box-sizing: border-box;
 	margin-left: 23px;
@@ -541,6 +551,14 @@ h1 {
 	border-radius: 3px;
 	width: 135px;
 	min-height: 38px;
+}
+
+.banners-item .button:hover {
+	background-color:rgba(0,0,0,0.2);
+}
+
+.banners-item .button:active {
+	background-color:rgba(0,0,0,0.3);
 }
  
 .banners-list :nth-child(5) {
@@ -1006,9 +1024,20 @@ h2 {
 	font-size: 18px;
 	line-height: 24px;
 	color: #f1f5f7;
-	width: 322px;
-	margin-left: 3px;
+	width: 280px;
 	font-weight: 100;
+	margin-left: 40px;
+}
+
+.login-registration {
+	width: 370px;
+	margin-left: 50px;
+
+	
+}
+
+.registration-list {
+	margin-right: -60px;
 }
 
 .footer-middle {
