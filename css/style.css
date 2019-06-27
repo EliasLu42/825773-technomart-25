@@ -251,7 +251,7 @@ h1 {
 
 .header-middle {
 	display: flex;
-	margin-bottom: 22px;
+	margin-bottom: 24px;
 }
 
 .header-bottom {
@@ -264,20 +264,28 @@ h1 {
 	display: flex;
 	margin: 0;
 	padding: 0;
-	margin-left: 52px;
-	margin-right: 55px;
+	margin-left: 20px;
+	margin-right: 25px;
 	justify-content: space-between;
 	padding-bottom: 23px;
 	padding-top: 18px;
 }
 
-.navigation-item a{
-/*	padding-top: 18px;
+.navigation-item a {
+	padding-top: 18px;
 	padding-bottom: 23px;
-	padding-left: 10px;*/
-
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
+.navigation-item a:hover {
+	background-color: rgba(0,0,0,0.3);
+}
+
+.navigation-item a:active {
+	background-color: rgba(0,0,0,0.4);
+	color: rgba(255,255,255,0.5);
+}
 
 .top-navigation-item {
 	margin-left: 50px;
@@ -1026,18 +1034,26 @@ h2 {
 	color: #f1f5f7;
 	width: 280px;
 	font-weight: 100;
-	margin-left: 40px;
+	padding-left: 60px;
+}
+
+.contacts .contacts-adres {
+	margin-top: 5px;
+	margin-left: 9px;
 }
 
 .login-registration {
 	width: 370px;
-	margin-left: 50px;
-
-	
+	margin-left: 30px;
 }
 
-.registration-list {
-	margin-right: -60px;
+.login-registration-list {
+	padding-left: 38px;
+	width: 280px;
+}
+
+h1 {
+	min-width: 210px;
 }
 
 .footer-middle {
@@ -1202,4 +1218,67 @@ h2 {
 .links2 a:active{
 	color: red;
 	text-decoration: none;
+}
+
+.mini-menu-list {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	display: flex;
+	width: 380px;
+}
+
+.mini-menu{
+	display: flex;
+	align-items: center;
+	height: 60px;
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.catalog-main {
+	margin-top: -55px;
+}
+
+.mini-item {
+	position: relative;
+	text-transform: uppercase;
+	font-family: "PT Sans", sans-serif;
+	padding-left: 42px;
+	font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.mini-menu-list :nth-child(1) {
+ padding: 0px;
+}
+
+.mini-menu-list :nth-child(2) {
+ padding-left: 56px;
+}
+
+.mini-item a {
+  color: #000000;
+}
+
+
+.home {
+	position: absolute;
+  top: 0px;
+  /*right: -1px;*/
+  width: 14px;
+  height: 12px;
+  text-indent: -1000px;
+  overflow: hidden;
+  /*z-index: 20;*/
+}
+
+.home {
+	background: url(..//svg-technomart/icon-home.svg) no-repeat 0 0;
 }
