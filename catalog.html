@@ -148,14 +148,30 @@
     <div class="main-catalogAndFilters">
     <section class="filters">
       <div class="filters-container">
+        <div class="filters-title-container">
         <p class="filters-title">
           Фильтр:
         </p>
-        <p class="title-prise">
+        </div>
+        <p class="title-price">
           Цена:
         </p>
-        <div class="filter-buttons">
-          <!-- фильтр -->
+
+
+        <div class="filter-WithButtons">
+          <div class="range-controls">
+            <div class="scale">
+              <div class="bar">
+              </div>
+            </div>    
+            <div class="range-toggle range-toggle-min"></div>
+            <div class="range-toggle range-toggle-max"></div>
+          </div>
+          <div class="price-controls">
+            <label class="min-price"><input type="text" name="min-price" value="0"></label>
+            <label class="max-price"><input type="text" name="max-price" value="30000"></label>
+          </div>
+          
         </div>
 
         <p class="filters-manufacturers-title">
@@ -202,6 +218,73 @@
         </div>
 
       </div>
+    </section>
+      
+      <section class="catalog-item">
+
+      <ul class="catalog-filters-list">
+        <li class="catalog-filters-item">
+          <a type="button" href="#">
+            По цене
+          </a>
+        </li>
+        <li class="catalog-filters-item">
+          <a type="button" href="#">
+            По типу
+          </a>
+        </li>
+        <li class="catalog-filters-item">
+          <a type="button" href="#">
+            По функционалу
+          </a>
+        </li>
+        <li class="catalog-filters-item">
+          <a type="button" href="#">
+            xup
+          </a>
+        </li>
+        <li class="catalog-filters-item">
+          <a type="button" href="#">
+            xdown
+          </a>
+        </li>
+      </ul>
+      <ul class="catalog-products-list">
+        <li class="catalog-products-item">
+          <div class="actions">
+          <a href="#" class="buy">Купить</a>
+          <a href="#" class="bookmark">В закладки</a>
+          </div>
+            <div class="image"><img src="img/perforator-3.jpg" alt="Перфоратор 2"></div>
+            <div class="perforator">Перфоратор BOSCH BFG 3000</div>
+            <div class="perforator-past-price">22500 Р.</div>
+            <div class="perforator-price">15500 Р.</div>
+        </li>
+
+        <li class="catalog-products-item">
+          <div class="actions">
+          <a href="#" class="buy">Купить</a>
+          <a href="#" class="bookmark">В закладки</a>
+          </div>
+            <div class="image"><img src="img/perforator-2.jpg" alt="Перфоратор 3"></div>
+            <div class="perforator">Перфоратор BOSCH BFG 6000</div>
+            <div class="perforator-past-price">30500 Р.</div>
+            <div class="perforator-price">25500 Р.</div>
+        </li>
+
+        <li class="catalog-products-item">
+          <div class="actions">
+          <a href="#" class="buy">Купить</a>
+          <a href="#" class="bookmark">В закладки</a>
+          </div>
+            <div class="image"><img src="img/perforator-2.jpg" alt="Перфоратор 3"></div>
+            <div class="perforator">Перфоратор BOSCH BFG 6000</div>
+            <div class="perforator-past-price">30500 Р.</div>
+            <div class="perforator-price">25500 Р.</div>
+        </li>
+      </ul>
+    </section>
+
 
     </section>
     </div>
