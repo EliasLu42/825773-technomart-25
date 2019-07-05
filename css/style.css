@@ -1341,6 +1341,38 @@ h1 {
 	text-transform: uppercase;
 }
 
+.filters-container {
+	width: 220px;
+}
+
+.filters-title-container {
+	margin: 0px;
+	width: 220px;
+	height: 37px;
+	display: flex;
+	align-items:  center;
+	background-color: #f7f3ec;
+	border-radius: 3px;
+}
+
+.filters-title-container p {
+	margin: 0px;
+	margin-left: 19px;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-family: "PT Sans", sans-serif;
+}
+
+
+.title-price {
+	margin: 0px;
+	margin-top: 16px;
+	margin-bottom: 23px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font: 17px;
+	font-family: "PT Sans", sans-serif;
+}
 
 .filters-manufacturers-list,
 .power-list {
@@ -1364,9 +1396,6 @@ h1 {
 	display: block;
 	height: 23px;
 	width: 23px;
-	/*outline: 3px solid #c5c5c5;*/
-	/*border: 2px solid #c5c5c5;
-	border-radius: 2px;*/
 	background: url(..//svg-technomart/checkbox-off.svg)  ;
 	top: -3px;
 	bottom: 0px;
@@ -1387,4 +1416,193 @@ h1 {
 .filters-manufacturers-item input[type="checkbox"]:checked + label:after {
 	width: 27px;
 	background: url(..//svg-technomart/checkbox-on.svg) ;
+}
+
+.catalog-products-list {
+	margin: 0px;
+	padding: 0px;
+	width: 700px;
+}
+
+.catalog-products-list li:nth-child(3n) {
+	margin-right: 0px;
+}
+
+.catalog-products-item {
+	position: relative;
+  display: inline-block;
+  width: 218px;
+  height: 316px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  line-height: 20px;
+  font-weight: bold;
+  text-align: center;
+  border: solid 1px #eaeaea;
+  background-color: #ffffff;
+}
+
+.catalog-products-list {
+	font-size: 0;
+}
+
+.catalog-products-item img {
+	width: 100%;
+}
+
+.catalog-products-item .perforator-price {
+	color: white;
+	position: relative;
+  width: 80px;
+  margin: 10px auto;
+  padding: 10px 30px;
+  background: #ee3643;
+  border-radius: 3px;
+}
+
+.catalog-products-item .image {
+	width: 218px;
+	height: 168px;
+}
+
+.catalog-products-item .perforator-price:after {
+	content: "";
+  position: absolute;
+  top: 0;
+  right: -20px;
+  width: 0;
+  height: 0;
+  border: 20px solid white;
+  border-left-color: #ee3643;
+}
+
+.catalog-products-item .actions {
+	position: absolute;
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 88px;
+  padding: 40px 0;
+  background-color: rgba(255,255,255,0.9);
+  z-index: 10;
+}
+
+.catalog-products-item .actions .buy,
+.catalog-products-item .actions .bookmark {
+	display: block;
+	width: 129px;
+	margin: 0 auto;
+	margin-bottom: 7px;
+	padding: 7px 0px;
+	background-color: #63a63e;
+	border: 3px solid #63a63e;
+	border-bottom-color: #367315;
+	border-radius:3px;
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Cuprum", sans-serif;
+  line-height: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.catalog-products-item .actions .bookmark {
+  color: #32425c;
+  background: white;
+  border-bottom-color: #63a63e;
+}
+
+.catalog-products-item .actions {
+	display: none;
+}
+
+.catalog-products-item:hover .actions {
+	display: block;
+}
+
+.catalog-filters-list {
+	display: flex;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.main-catalogAndFilters {
+	display: flex;
+}
+
+.filters-WithButtons {
+	width: 220px;
+	height: 127px;	
+}
+
+.price-controls {
+	position: relative;
+	font-size: 0;
+	height: 38px;
+}
+
+.min-price,
+.max-price {
+	
+}
+
+.price-controls::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  left: 110px;
+  top: 15px;
+  height: 10px;
+  background: #000000;
+  transform: rotate(90deg);
+}
+
+.range-controls {
+	margin: 0px;
+	width: 220px;
+	height: 80px;
+	margin-bottom: 3px;
+}
+
+.price-controls label {
+	width: 220px;
+  display: inline-block;
+  font-size: 17px;
+  font-family: "PT Sans", sans-serif;
+  line-height: 38px;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.price-controls .min-price,
+.price-controls .max-price {
+  width: 95px;
+  background-color: #f7f3ec;
+	padding-left: 15px;
+	height: 38px;
+}
+
+.price-controls .min-price {
+	padding-left: 10px;
+}
+
+.price-controls .max-price {
+	padding-left: 25px;
+	width: 90px;
+}
+
+.price-controls input {
+	padding: 0px;
+  width: 85px;
+  margin: 0;
+  color: inherit;
+  font: inherit;
+  background: none;
+  border: none;
+}
+
+.price-controls input[type="text"] {
+	text-align: center;
 }
