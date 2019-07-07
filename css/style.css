@@ -311,14 +311,13 @@ h1 {
 	margin-right: -5px;
 }
 
-.top-navigation-item .basket {
+.top-navigation-item .basket,
+.basket-catalog{
 	position: relative;
 	padding-left: 50px;
 	padding-bottom: 12px;
 	padding-top: 20px;
 	padding-right: 28px;
-	background-color: #ee3643;
-
 }
 
 .basket::before {
@@ -931,8 +930,90 @@ h2 {
 	margin-bottom: 30px;
 }
 
-.wtiteUsForm {
+.writeUsForm {
+	position: relative;
 	display: none;
+	width: 620px;
+	height: 430px;
+}
+
+.wtiteUsForm:hover {
+opacity: 1;
+}
+
+.wtiteUsForm:before, .wtiteUsForm:after {
+position: absolute;
+top: 14px;
+right: 14.5px;
+content: ' ';
+height: 21px;
+width: 3px;
+background-color: #ee3643;
+border-radius: 3px;
+}
+.wtiteUsForm:before {
+transform: rotate(45deg);
+}
+.wtiteUsForm:after {
+transform: rotate(-45deg);
+}
+
+.NameAndEmail {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	display: flex;
+	width: 460px;
+	margin-left: 80px;
+	margin-top: 48px;
+}
+
+.form-title {
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 13px;
+	font-size: 18px;
+}
+
+.redline {
+	width: 620px;
+	height: 7px;
+	background-color: #ff5357;
+}
+
+.NameAndEmail-item input[type="text"] {
+	width: 200px;
+	height: 38px;
+	padding-left: 15px;
+	font-size: 13px;
+	font-family: "PT Sans", sans-serif;
+}
+
+.NameAndEmail-item {
+	margin-bottom: 22px;
+}
+
+.NameAndEmail li:nth-child(1) {
+	margin-right: 20px;
+}
+
+.textOfLetter {
+	margin-left: 80px;
+	margin-bottom: 37px;
+}
+
+.textOfLetter input[type="text"] {
+	resize: both;
+	width: 454px;
+	height: 114px;
+}
+
+.textOfLetter p {
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 13px;
+	font-family: "Cuprum", sans-serif;
+	font-size: 18px;
 }
 
 .map-icon {
@@ -941,6 +1022,29 @@ h2 {
 	margin: 0px;
 	padding: 0px;
 	margin-bottom: 45px;
+}
+
+.button-container-form {
+	width: 620px;
+	height: 112px;
+	background-color: #f4f4f4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.button-container-form  button {
+	width: 460px;
+	height: 38px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 14px;
+	font-family: "Cuprum", sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #ee3643;
+	border-radius: 3px;
 }
 
 .writeUs {
@@ -1809,13 +1913,14 @@ h1 {
 	left:11px;
 }
 
-.nickename:after {
+.exit {
 	position: absolute;
 	content: "";
 	width: 20px;
 	height: 17px;
 	background: url(..//svg-technomart/icon-logout.svg) no-repeat;
 	right: 11px;
+	
 }
 
 .number:before {
@@ -1882,6 +1987,31 @@ h1 {
 	background: url(..//svg-technomart/radio-on.svg) ;
 }
 
+.basket-catalog {
+	background-color: #ee3643;
+}
+
+.basket-catalog::before {
+	content: "";
+	position: absolute;
+	top: 22px;
+	left: 18px;
+	width: 15px;
+	height: 15px;
+	background-image: url("../svg-technomart/icon-cart.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	opacity: 0.5;
+}
+
+ .basket-catalog:hover::before {
+	opacity: 1;	
+}
+
+.basket-catalog:active  {
+	opacity: 0.5;
+}
+
 .power-list {
 	margin-bottom: 76px;
 }
@@ -1902,4 +2032,86 @@ h1 {
 .filters-show p {
 	margin: 0px;
 	margin-top: 5px;
+}
+
+.profile {
+	z-index: 2;
+}
+
+.aboutDrelContainer {
+	width: 100%;
+	background-color: #f2f6f8;
+	height: 261px;
+}
+
+.aboutDrel-main {
+	width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  padding-top: 63px;
+}
+
+.title-aboutDrel {
+	font-size: 30px;
+	letter-spacing: 0.2px;
+	font-weight: 100;
+}
+
+.text-aboutDrel {
+	margin: 0px;
+  padding: 0px;
+  margin-top: 23px;
+  font-size: 13px;
+  font-family: "PT Sans",sans-serif;
+  letter-spacing: 0.14px;
+  line-height: 1.9;
+}
+
+.catalog-buttons {
+	padding: 0px;
+	margin: 0px;
+	margin-top: 32px;
+	display: flex;
+	margin-left: 240px;
+	margin-bottom: 60px;
+}
+
+.catalog-buttons-items {
+	width: 37px;
+	height: 37px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 9px;
+	font-size: 13px;
+	font-family: "PT Sans", sans-serif;
+	border: solid 1px #e5e5e5;
+	border-radius: 3px;
+} 
+
+.catalog-buttons li:nth-child(1) {
+	background-color: #ee3643;
+	border: solid 1px #ee3643;
+	color: #fff;
+}
+
+.catalog-buttons li:nth-child(4) {
+	width: 140px;
+	height: 37px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 0px;
+	font-size: 13px;
+	font-family: "PT Sans", sans-serif;
+	text-transform: uppercase;
+	border: solid 1px #e5e5e5;
+	border-radius: 3px;
+}
+
+.footer-middle .contacts {
+	width: 334px;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 3px;
 }
