@@ -368,28 +368,34 @@
 			<img src="img/karta.png" alt="Карта" class="map-icon">
 
 			<a href="writeUs.html" class="writeUs">Заблудились? Напишите нам!</a>
-			<form action="" class="wtiteUsForm">
-				<p>
+			<form action="" class="writeUsForm">
+				<div class="redline"></div>
+				<ul class="NameAndEmail">
+					<li class="NameAndEmail-item">
 					<label>
-						<input type="text" name="user-name"placeholder="Имя Фамилия">Ваше имя:
+						<p class="form-title">Ваше имя:</p> 
+						<input type="text" name="user-name" placeholder="Имя Фамилия">
 					</label>
-				</p>
+					</li>
 
-				<p>
+					<li class="NameAndEmail-item">
 					<label>
-						<input type="text" name="user-mail"placeholder="email@example.com">Ваш e-mail:
+						<p class="form-title">Ваш e-mail:</p>
+						<input type="text" name="user-mail"placeholder="email@example.com">
 					</label>
-				</p>
+					</li>
+				</ul>
 
-				<p>
-					<label>
-						<input type="text" name="user-text"placeholder="В свободной форме">Текст письма:
-					</label>
-				</p>
+					<div class="textOfLetter">
+						<p>Текст письма:</p>
+						<input type="text" name="user-text"placeholder="В свободной форме">
+					</div>
 
+				<div class="button-container-form">
 				<button type="submit">
 					Отправить
 				</button>
+				</div>
 
 			</form>
 			</div>
