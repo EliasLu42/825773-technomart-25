@@ -15,7 +15,7 @@
 
   			<div class="header-top">
 					<div class="container-header-top">
-				<a>
+				<a href="index.html">
   			<div class="logo-box">
 
   				<img class="logo" src="svg-technomart/logo-technomart.svg"  alt="Логотип техномарта">
@@ -92,13 +92,13 @@
 				<div class="header-bottom">
   			<ul class="bottom-navigation">
 				<li class="navigation-item">
-					<a>Главная</a>
+					<a href="index.html">Главная</a>
 				</li>
 				<li class="navigation-item">
 					<a href="aboutus.html">Компания</a>
 				</li> 
 				<li class="navigation-item">
-					<a href="catalog.html">Каталог</a>
+					<a>Каталог</a>
 				</li> 
 				<li class="navigation-item">
 					<a href="news.html">Новости</a>
@@ -154,7 +154,8 @@
 
     <div class="main-catalogAndFilters">
     <section class="filters">
-      <div class="filters-container">
+
+      <form class="filters-container">
         <div class="filters-title-container">
         <p class="filters-title">
           Фильтр:
@@ -222,11 +223,11 @@
             </li>
           </ul>
 
-        <button type="button" class="filters-show">
+        <button type="submit" class="filters-show">
           <p>Показать</p>
        </button>
 
-      </div>
+      </form>
     </section>
       
       <section class="catalog-item">
@@ -397,7 +398,7 @@
     <div class="footer-back1">
     <div class="footer-container1">
     <div class="footer-top">
-      <a>
+      <a href="index.html">
         <div class="logo-box-footer">
           <img class="logo-footer" src="img/logo.svg" width="220" height="68" alt="Логотип Техномарта">
         </div>
@@ -506,5 +507,32 @@
   </div>
 
   </footer>
+
+    <form action="" class="InBasket">
+      <div class="redline"></div>
+      <div class="container-InBasket">
+        <p>Товар добавлен в корзину!</p>
+      </div>
+
+      <div class="buttons-InBasket">
+        <ul class="buttons-list">
+          <li class="buttons-list-item">
+            <div class="button-container-InBasket">
+            <button class="form-order" type="submit">
+            оформить заказ
+            </button>
+            </div>
+          </li>
+          <li class="buttons-list-item">
+            <div class="button-container-InBasket">
+            <button class="next-shoping" type="submit">
+            продолжить покупки
+            </button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </form>
+
   </body>
 </html>

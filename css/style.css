@@ -937,11 +937,11 @@ h2 {
 	height: 430px;
 }
 
-.wtiteUsForm:hover {
+.writeUsForm:hover {
 opacity: 1;
 }
 
-.wtiteUsForm:before, .wtiteUsForm:after {
+.writeUsForm:before, .writeUsForm:after {
 position: absolute;
 top: 14px;
 right: 14.5px;
@@ -951,10 +951,10 @@ width: 3px;
 background-color: #ee3643;
 border-radius: 3px;
 }
-.wtiteUsForm:before {
+.writeUsForm:before {
 transform: rotate(45deg);
 }
-.wtiteUsForm:after {
+.writeUsForm:after {
 transform: rotate(-45deg);
 }
 
@@ -2114,4 +2114,96 @@ h1 {
 	margin: 0px;
 	padding: 0px;
 	margin-left: 3px;
+}
+
+.InBasket {
+	display: none;
+	width: 620px;
+	height: 282px;
+	position: relative;
+}
+
+.container-InBasket {
+	position: relative;
+}
+
+.container-InBasket:before {
+	position: absolute;
+	content: "";
+	width: 66px;
+	height: 66px;
+	background: url(..//img/greengalka.png) no-repeat;
+	left: 81px;
+	bottom: -15px;
+}
+
+.container-InBasket p {
+	margin: 0px;
+	padding: 0px;
+	margin-left: 179px;
+	margin-top: 68px;
+	font-family: "Cuprum", sans-serif;
+	font-size: 30px;
+}
+
+.buttons-list {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	display: flex;
+}
+
+.buttons-list-item {
+	margin-right: 20px;
+}
+
+.buttons-InBasket {
+	width: 620px;
+	height: 112px;
+	background-color: #f1f1f1;
+	margin-top: 68px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.form-order {
+	width: 220px;
+	height: 38px;
+	background-color: #ee3643;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 3px;
+}
+
+.next-shoping {
+	width: 220px;
+	height: 38px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 3px;
+	background-color: #fff;
+}
+
+.InBasket:hover {
+opacity: 1;
+}
+
+.InBasket:before, .InBasket:after {
+position: absolute;
+top: 14px;
+right: 14.5px;
+content: ' ';
+height: 21px;
+width: 3px;
+background-color: #ee3643;
+border-radius: 3px;
+}
+.InBasket:before {
+transform: rotate(45deg);
+}
+.InBasket:after {
+transform: rotate(-45deg);
 }
