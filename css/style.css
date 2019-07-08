@@ -288,11 +288,6 @@ h1 {
 	color: rgba(255,255,255,0.5);
 }
 
-.top-navigation-item {
-	margin-left: 50px;
-	margin-right: 40px;
-}	
-
 .order-button {
 	background-color: #63a63e;
 	padding: 12px 20px;
@@ -849,6 +844,11 @@ h2 {
 	font-weight: 100;
 	font: normal;
 	font-size: 30px;
+}
+
+.title p {
+	margin: 0px;
+	padding: 0px;
 }
 
 .about-company {
@@ -1772,7 +1772,7 @@ h1 {
   border: none;
 }
 
- input[type="text-max"] {
+.max-price input[type="text"] {
 	width: 95px;
 	text-align: center;
 }
@@ -2029,10 +2029,7 @@ h1 {
 	border-radius: 3px;
 }
 
-.filters-show p {
-	margin: 0px;
-	margin-top: 5px;
-}
+
 
 .profile {
 	z-index: 2;
