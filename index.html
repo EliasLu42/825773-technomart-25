@@ -5,7 +5,7 @@
     <title>HTML Academy: Техномарт</title>
     <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700i,PT+Sans:400,700i&display=swap" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/minimal.css" rel="stylesheet">
   </head>
   <body>
   	<header class="main-header">
@@ -18,14 +18,13 @@
 				<a>
   			<div class="logo-box">
 
-  				<img class="logo" src="svg-technomart/logo-technomart.svg" width="110" height="18" alt="Логотип техномарта">
+  				<img class="logo" src="img/svg-technomart/logo-technomart.svg" width="110" height="18" alt="Логотип техномарта">
 				</div>
   			</a>
 
   			<div class="search">
 				<input type="text" class="search_input" id="search" placeholder="Поиск:" size="25">
 				<label class="search_label" for="search">Поиск:</label>
-					<!--Форма-->
 				</div>
 				
 				<div class="list">
@@ -60,9 +59,7 @@
 			<div class="container">
 				<div class="header-middle">
   			<h1>
-  				Интернет-магазин <br>
-  				строительных материалов<br>
-  				и инструментов для ремонта
+  				Интернет-магазин строительных материалов и&nbsp;инструментов для ремонта
   			</h1>
 				<div class="contacts">
   			<div class="number"><p>+7 (812) 555-05-55</p></div>
@@ -161,26 +158,28 @@
 
 		<section class="slider">
 			<figure class="slider-content">
-				<a href="#"><img src="img/studio.jpg" width="286" height="164" alt="Фото слайдера"></a>
 			<p class="slider-text1">
 				<span class="slider-title">
 				Дрели
 				</span>
-				Соседям на радость!
+				<span class="main-text1">Соседям на радость!</span>
 			</p>	
-			<p>
+			<p class="slider-text2">
 				<span class="slider-title">
 				Перфораторы
 				</span>
 				Настоящие мужские игрушки
 			</p>
-			<span class="slider slider-button open-catalog">
-				<a href="catalog.html">
+			
+			<a class="slider-button open-catalog" href="catalog.html">
+				
 					Открыть каталог
-				</a>
-			</span>
-			<span class="slider slider-button slider-button-back">1X</span>
-			<span class="slider slider-button slider-button-next">2X</span>
+				
+			</a>
+			<span class=" slider-button slider-button-back"></span>
+			<span class=" slider-button slider-button-next"></span>
+			<span class="slider-dots1"></span>
+			<span class="slider-dots2"></span>
 			</figure>
 		</section>
 		</div>
@@ -297,34 +296,39 @@
 			<p class="titleAndTextServices">
 			Хороший интернет-магазин отличается от плохого не только ценами!
 			Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+				<div class="main-services">
+				<ul class="slider-services">
+					<li class="slider-services-item delivery-button">
+						<a href="#" class="button">Доставка</a>
+					</li>
+					<li class="slider-services-item garanty-button">
+						<a href="#" class="button">Гарантия</a>
+					</li>
+					<li class="slider-services-item credit-button">
+						<a href="#" class="button">Кредит</a>
+					</li>
+				</ul>
 
 			<ul class="services-list" aria-label="Список сервисов">
 				<li class="services-item">
-					<div class="delivery-button">
-						<a href="delivery.html" class="button">Доставка</a>
-						<p><span class="services-title">Доставка</span>  Мы с удовольствием доставим ваш товар прямо  к вашему подъезду совершенно бесплатно!Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
-						<img src="img/delivery.png" width="468" height="261" alt="Иконка доставки">
-					</div>
+						
+						<span class="services-title">Доставка</span> 
+						<p>Мы с удовольствием доставим ваш товар прямо  к вашему подъезду совершенно бесплатно!Ведь мы неплохо заработаем, <br> поднимая его на ваш этаж!</p>
 				</li>
 				<li class="services-item">
-					<div class="garanty-button">
-						<a href="garanty.html" class="button">Гарантия</a>
-						<p><span class="services-title">Гарантия</span>
-							Гарантия  Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцированного его возгаранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. Дом уж восстановите как-нибудь сами.
+						
+						<span class="services-title">Гарантия</span>
+							<p>Гарантия  Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцированного его возгаранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. Дом уж восстановите как-нибудь сами.
 						</p>
-						<img src="img/garanty.png" width="389" height="283" alt="Иконка гарантии"> 
-					</div>
 				</li>
 				<li class="services-item">
-					<div class="credit-button">
-						<a href="credit.html" class="button">Кредит</a>
-						<p><span class="services-title">Кредит</span>
-							Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.
+						
+						<span class="services-title">Кредит</span>
+							<p>Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.
 						</p>
-						<img src="img/credit.png" width="465" height="285" alt="Иконка кредита"> 
-					</div>
 				</li>
 			</ul>
+			</div>
 			</div>
 		</section>
 
@@ -337,7 +341,7 @@
 			</h2>
 			<p class="text1">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и
 			строительства не оставит равнодушным любителей сэкономить на гастарбайтерах.</p>
-			<p class="text2">Мы можем доставить ваш товар в самые отадаленные точки России!<br>
+			<p class="text2">Мы можем доставить ваш товар в самые отадаленные точки России!
 			Техномарт работает со многими траспортными компаниями:</p>
 			<ul class="delivery-list">
 				<li class="delivery-item">
@@ -514,7 +518,7 @@
 
 		<p class="links2">
 			Разработано —
-		<a href="https://htmlacademy.ru">htmlacademy.ru</a>
+		<a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
 		</p>
 		</div>
 	</div>

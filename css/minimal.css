@@ -1,0 +1,330 @@
+body{margin:0;font-family:"Cuprum",PT Sans,sans-serif;background:#fff}
+a{text-decoration:none}
+.header-top a,.header-bottom a,.perforator-price,.perforator-past-price{font-size:17px;color:#fff}
+.contacts p,.writeUs,.aboutUs{font-size:14px}
+.number,.login-registration a,.services-item a{font-size:21px;color:#000}
+.number{position:relative;color:#ee3643}
+.navigation-list1,.navigation-list2,.services-list,.manufacturers-list,.popular-products-list,.top-navigation,.login-registration,.bottom-navigation,.banners-list,.icon-list{list-style:none}
+.banner-list h3{font-size:24px}
+.banners-list .button{font-size:14px;color:#000}
+h2{font-size:30px;text-transform:uppercase;font-family:Cuprum}
+.popular a{font-size:14px;color:#000}
+.popular-products-list div{font-family:"PT Sans",Arial,sans-serif}
+.perforator{font-size:18px}
+.navigation-list2 a{color:#ffd180}
+.navigation-list1 a{color:#000}
+.links a,.writeUs,.aboutUs{color:#000}
+.logo-box{width:220px;height:42px;background-color:#ee3643;box-shadow:inset 0 -5px 0 0 rgba(0,0,0,0.24)}
+.logo{width:110px;height:18px;margin:12px 55px}
+.main-header{background:#f3f7f9;margin-bottom:55px}
+.main-navigation{align-items:center;display:flex;flex-direction:column;width:100%}
+.container{width:940px;margin:0 auto;padding:0 10px}
+.container-header-top{width:940px;margin:0 auto;padding:0 10px;display:flex;justify-content:space-between}
+.header-top{margin-bottom:46px;width:100%;background-color:#293449}
+.search{position:relative;height:40px;color:#fff;font-size:17px}
+.search_label{font-size:0}
+.search_label::before{position:absolute;display:block;content:"";width:17px;height:17px;top:12px;left:17px;background-image:url(..//img/svg-technomart/icon-search.svg);background-repeat:no-repeat;background-position:0 0;opacity:.5}
+.search_input{line-height:40px;width:210px;position:relative;padding-left:49px;border:0;font-size:17px;font-family:"Cuprum",sans-serif;background-color:rgba(0,0,0,0.0)}
+.search_input:focus + label:before{background-image:url(..//img/icon-search2.png);background-repeat:no-repeat;opacity:1}
+.search_input:focus{background-color:#fff}
+.search_input[type="text"]::placeholder{color:#fff}
+.search_input:hover + label:before{opacity:1}
+h1{margin-top:5px;margin-left:53px;font-size:16px;font-style:italic;color:#ee3643;line-height:1.44;font-weight:400;font-family:"Cuprum",sans-serif;letter-spacing:normal;font-stretch:normal;text-align:left;width:220px;height:60px}
+.number{width:264px;height:39px;border:3px solid #fff}
+.contacts{margin-left:70px;margin-right:-.3px}
+.contacts p{margin-top:7px;margin-left:10px}
+.number p{font-size:21px;margin:8px 49px 8px 70px}
+.list{margin-top:10px;margin-bottom:12px}
+.top-navigation{margin:0;padding:0;display:flex;width:460px;justify-content:space-between}
+.login-registration{margin:0;padding:0}
+.header-middle{display:flex;margin-bottom:24px}
+.header-bottom{margin-bottom:60px;background-color:#32425c}
+.bottom-navigation{display:flex;margin:0;padding:0;margin-left:20px;margin-right:25px;justify-content:space-between;padding-bottom:23px;padding-top:18px}
+.navigation-item a{padding:18px 30px 23px}
+.navigation-item a:hover{background-color:rgba(0,0,0,0.3)}
+.navigation-item a:active{background-color:rgba(0,0,0,0.4);color:rgba(255,255,255,0.5)}
+.order-button{background-color:#63a63e;padding:12px 20px;margin-left:-23px}
+.order-button:hover{background-color:#5fbb2d}
+.order-button:active{opacity:.5}
+.bag{margin-right:-5px}
+.top-navigation-item .basket,.basket-catalog{position:relative;padding:20px 28px 12px 50px}
+.basket::before{content:"";position:absolute;top:22px;left:18px;width:15px;height:15px;background-image:url(..//img/svg-technomart/icon-cart.svg);background-repeat:no-repeat;background-position:0 0;opacity:.5}
+.basket:hover::before{opacity:1}
+.basket:active{opacity:.5}
+.bookmarks-container{margin-left:15px}
+.bookmarks{position:relative;padding-left:40px;padding-bottom:12px;padding-top:20px}
+.bookmarks::before{content:"";position:absolute;width:14px;height:16px;background-image:url(..//img/svg-technomart/icon-bookmark.svg);left:12px;top:22px;opacity:.5;background-repeat:no-repeat;background-position:0 0}
+.bookmarks:hover::before{opacity:1}
+.bookmarks:active{opacity:.5}
+.top-navigation li:last-child{margin-left:0;margin-right:0}
+.login-registration{margin:0;margin-left:30px}
+.login-registration-list{margin:0;list-style:none;display:flex;flex-direction:row}
+.registration{background-color:#fff;padding:10px 25px 9px}
+.login-link{display:flex;justify-content:center;align-items:center;position:relative;background-color:#fff;width:120px;height:45px;margin-right:10px}
+.login-link a{margin-right:-25px}
+.login-link::before{content:"";position:absolute;width:20px;height:17px;background-image:url(..//img/svg-technomart/icon-login.svg);left:15px;top:14px;opacity:.5;background-repeat:no-repeat;background-position:0 0}
+.banners-list{display:flex;flex-wrap:wrap;justify-content:space-between;color:#fff;margin-top:58px}
+.banners-item{height:123px;width:300px;margin-left:-40px}
+.materials::before{content:"";position:absolute;top:31px;right:43px;width:44px;height:65px;background-image:url(..//img/svg-technomart/icon-1.svg);background-repeat:no-repeat;background-position:0 0}
+.instruments::before{content:"";position:absolute;top:35px;right:28px;width:75px;height:61px;background-image:url(..//img/svg-technomart/icon-2.svg);background-repeat:no-repeat;background-position:0 0}
+.technics::before{content:"";position:absolute;top:32px;right:30px;width:78px;height:62px;background-image:url(..//img/svg-technomart/icon-3.svg);background-repeat:no-repeat;background-position:0 0}
+.discount::before{content:"";position:absolute;top:29px;right:43px;width:59px;height:72px;background-image:url(..//img/svg-technomart/icon-4.svg);background-repeat:no-repeat;background-position:0 0}
+.delivery::before{content:"";position:absolute;top:35px;right:28px;width:78px;height:63px;background-image:url(..//img/svg-technomart/icon-5.svg);background-repeat:no-repeat;background-position:0 0}
+.banners-list li:nth-child(1){position:relative;background-color:#ffbf47}
+.banners-list li:nth-child(1) .flag{position:absolute;top:0;right:-1px;width:60px;height:60px;text-indent:-1000px;overflow:hidden;z-index:20}
+.banners-list li:nth-child(1) .flag-new{background:url(../img/new-flag.png) no-repeat 0 0}
+.banners-list li:nth-child(2){position:relative;background-color:#3bbce3}
+.banners-list li:nth-child(3){position:relative;background-color:#dc91d8}
+.banners-list li:nth-child(4){position:relative;background-color:#8ed78f}
+.banners-list li:nth-child(5){position:relative;background-color:#ffc047}
+.banners-item h3{margin-top:24px;margin-left:23px;font-size:24px;margin-bottom:0;letter-spacing:.7px}
+.banners-item .button{display:flex;color:#fff;box-sizing:border-box;margin-left:23px;flex-wrap:wrap;align-items:center;justify-content:center;margin-top:14px;background-color:rgba(0,0,0,0.1);text-transform:uppercase;border-radius:3px;width:135px;min-height:38px}
+.banners-item .button:hover{background-color:rgba(0,0,0,0.2)}
+.banners-item .button:active{background-color:rgba(0,0,0,0.3)}
+.banners-list :nth-child(5){margin-left:66.5%;margin-top:20px}
+.banners-list :nth-child(4){margin-left:66.5%;margin-top:20px}
+.slider-banners-container{position:relative;margin-bottom:53px}
+.slider{position:absolute;bottom:0;height:266px;width:620px;background:url(..//img/slide1.jpg) no-repeat}
+.slider-content{position:relative;margin:0}
+.slider-button-back:before{position:absolute;content:"";display:block;width:22px;height:40px;background:url(..//img/svg-technomart/icon-left.svg) no-repeat;bottom:89px;left:25px}
+.slider-button-next:before{position:absolute;content:"";display:block;width:22px;height:40px;background:url(..//img/svg-technomart/icon-right.svg) no-repeat;bottom:89px;right:20px}
+.slider-dots1:before{position:absolute;content:"";display:block;width:10px;height:10px;left:295px;bottom:16px;background:url(..//img/slider-dots1.png);z-index:1}
+.slider-dots2:after{position:absolute;content:"";display:block;width:6px;height:6px;left:317px;bottom:18px;background:url(..//img/slider-indicator.png);z-index:2}
+.slider-dots2:before{position:absolute;content:"";display:block;width:10px;height:10px;left:315px;bottom:16px;background:url(..//img/slider-dots2.png)}
+.main-text1{color:#fff;font-size:18px}
+.slider-text1{margin:0;width:146px;margin-top:21px;margin-left:27px}
+.slider-text2{display:none}
+.slider-text1 .slider-title{font-size:36px;font-weight:700;color:#fff;text-transform:uppercase}
+.open-catalog{display:flex;align-items:center;justify-content:center;width:195px;height:38px;background-color:#ee3643;border-radius:3px;margin-top:124px;margin-left:25px;color:#fff;font-size:14px;text-transform:uppercase}
+h2{padding:0;margin:0}
+.popular{display:flex;justify-content:space-between;background-color:#f9f5f0;box-sizing:border-box;margin-bottom:24px;padding:33px 24px 22px 30px}
+.popular h2{margin-left:-2px;font-weight:100;margin-top:-4px}
+.popular a{padding:11px 55px;text-transform:uppercase;margin-top:-7px;background-color:#ee3643;color:#fff;border-radius:3px}
+.popular-products-list{padding:0;margin-bottom:0;width:940px}
+.popular-products-list li:nth-child(4n){margin-right:0}
+.popular-products-item{position:relative;display:inline-block;vertical-align:baseline;width:218px;height:316px;margin-right:20px;margin-bottom:20px;line-height:20px;font-weight:700;text-align:center;border:solid 1px #eaeaea;background-color:#fff}
+.popular-products-list{font-size:0}
+.popular-products-item img{width:99%}
+.popular-products-item .perforator-price{color:#fff;position:relative;width:80px;margin:10px auto;padding:10px 30px;background:#ee3643;border-radius:3px}
+.perforator{min-height:40px;padding:0 25px;margin-top:10px;margin-bottom:10px;font-weight:700}
+.perforator-past-price{color:#a9a9a9;min-height:20px;margin-top:10px;text-decoration:line-through}
+.popular-products-list :nth-child(4) .flag{position:absolute;top:-2px;right:-1px;width:60px;height:60px;text-indent:-1000px;overflow:hidden;z-index:20}
+.popular-products-list :nth-child(4) .flag-new{background:url(../img/new-flag.png) no-repeat 0 0}
+.popular-products-list :nth-child(4) .perforator-price{margin-top:40px}
+.popular-products-item .image{width:218px;height:168px}
+.popular-products-item .perforator-price:after{content:"";position:absolute;top:0;right:-20px;width:0;height:0;border:20px solid #fff;border-left-color:#ee3643}
+.popular-products-item .actions{position:absolute;top:0;left:0;width:99%;height:88px;padding:40px 0;background-color:rgba(255,255,255,0.9);z-index:10}
+.popular-products-item .actions .buy,.popular-products-item .actions .bookmark{display:block;width:129px;margin:0 auto;margin-bottom:7px;padding:7px 0;background-color:#63a63e;border:3px solid #63a63e;border-bottom-color:#367315;border-radius:3px;color:#fff;font-size:14px;font-weight:400;font-family:"Cuprum",sans-serif;line-height:18px;text-decoration:none;text-transform:uppercase}
+.popular-products-item .actions .bookmark{color:#32425c;background:#fff;border-bottom-color:#63a63e}
+.popular-products-item .actions{display:none}
+.popular-products-item:hover .actions{display:block}
+.all-manufacturers{box-sizing:border-box;min-width:253px;min-height:38px;text-align:center}
+.manufacturers-list{display:flex;padding:0;flex-wrap:wrap;width:940px}
+.manufacturers-item{display:flex;justify-content:center;align-items:center;box-sizing:border-box;margin-top:20px;margin-right:20px;width:220px;height:145px;border:solid 1px;border-color:#ebebeb}
+.manufacturers{margin-bottom:86px}
+.manufacturers-list :nth-child(4n){margin-right:0}
+.manufacturers-list div:nth-child(1),.manufacturers-list div:nth-child(2),.manufacturers-list div:nth-child(3),.manufacturers-list div:nth-child(4){margin-top:0}
+.services{background:#f3f7f9;width:100%;padding-top:10px;margin-bottom:75px}
+.container-services h2{font-weight:100;margin:0;border:0;margin-top:51px}
+.titleAndTextServices{margin:0;width:400px;font-family:"Cuprum Regular",Cuprum,sans-serif;font-size:14px;margin-top:25px;line-height:1.75;font-weight:400;letter-spacing:.26px;margin-bottom:70px}
+.container-services{width:940px;margin:0 auto;padding:0 10px}
+.slider-services{position:relative;list-style:none;margin:0;padding:0;width:240px;height:186px}
+.slider-services:before{position:absolute;content:"";display:block;width:10px;height:279px;background:url(..//img/shadow.png) no-repeat;right:0;bottom:-60px}
+.slider-services-item{display:flex;align-items:center;width:240px;height:61px}
+.slider-services li:nth-child(2) a,.slider-services li:nth-child(3) a{background-color:#32425c;color:#fff;box-shadow:0 1px 0 0 #293449,inset 0 1px 0 0 #405069}
+.slider-services li:nth-child(1) a{background-color:#fff;color:#32425c}
+.slider-services-item a{display:flex;align-items:center;margin:0;width:218px;height:61px;padding-left:22px;font-weight:700;font-size:21px;letter-spacing:.7px}
+.main-services{display:flex}
+.services-list{padding:0;margin:0;margin-left:80px}
+.services-list li:nth-child(2),.services-list li:nth-child(3){display:none}
+.services-item{position:relative;width:620px;height:289px;margin-top:-7px}
+.services-item:before{position:absolute;content:"";display:block;width:468px;height:261px;background:url(..//img/delivery.png) no-repeat;top:30px;right:0}
+.services-title{font-size:36px;color:#32425c;text-transform:uppercase}
+.services-item p{margin:0;margin-top:23px;width:275px;font-family:"PT Sans",sans-serif;font-size:13px;color:#000;line-height:24px}
+.container-about_us{display:flex;justify-content:space-between;width:940px;margin:0 auto;padding:0 10px}
+.about_us .title{font-family:"Cuprum",Cuprum,sans-serif;font-weight:100;font:normal;font-size:30px}
+.about-company{width:535px;height:320px;margin:0}
+.text1{font-family:"Cuprum",sans-serif;font-size:15px;font-style:normal;letter-spacing:.01px;line-height:1.75;margin-top:25px;margin-bottom:0}
+.text2{font-family:"Cuprum",sans-serif;font-size:15px;font-style:normal;letter-spacing:.01px;line-height:1.75;margin-top:21px;margin-bottom:18px;width:450px}
+.delivery-list{list-style:none;padding:0;margin:0;margin-bottom:36px}
+.delivery-list :last-child{margin:0}
+.delivery-item{position:relative;padding-left:38px;margin-bottom:20px;font-size:17px;letter-spacing:.5px;font-weight:100}
+.delivery-item::before{position:absolute;content:"";display:block;left:0;top:9px;width:25px;height:2px;background-color:#ee3643}
+.contacts-container{width:300px;margin:0}
+.title-contacts{font-weight:100;margin-top:3px}
+.contacts-text{font-family:"Cuprum",Arial,sans-serif;width:200px;font-style:normal;letter-spacing:.1px;font-size:14px;line-height:1.75;margin-top:23px;margin-bottom:30px}
+.writeUsForm{position:relative;display:none;width:620px;height:430px}
+.writeUsForm:hover{opacity:1}
+.writeUsForm:before,.writeUsForm:after{position:absolute;top:14px;right:14.5px;content:' ';height:21px;width:3px;background-color:#ee3643;border-radius:3px}
+.writeUsForm:before{transform:rotate(45deg)}
+.writeUsForm:after{transform:rotate(-45deg)}
+.NameAndEmail{margin:0;padding:0;list-style:none;display:flex;width:460px;margin-left:80px;margin-top:48px}
+.form-title{margin:0;padding:0;margin-bottom:13px;font-size:18px}
+.redline{width:620px;height:7px;background-color:#ff5357}
+.NameAndEmail-item input[type="text"]{width:200px;height:38px;padding-left:15px;font-size:13px;font-family:"PT Sans",sans-serif}
+.NameAndEmail-item{margin-bottom:22px}
+.NameAndEmail li:nth-child(1){margin-right:20px}
+.textOfLetter{margin-left:80px;margin-bottom:37px}
+.textOfLetter input[type="text"]{resize:both;width:454px;height:114px}
+.textOfLetter p{margin:0;padding:0;margin-bottom:13px;font-family:"Cuprum",sans-serif;font-size:18px}
+.map-icon{width:300px;height:158px;margin:0;padding:0;margin-bottom:45px}
+.button-container-form{width:620px;height:112px;background-color:#f4f4f4;display:flex;align-items:center;justify-content:center}
+.button-container-form button{width:460px;height:38px;display:flex;align-items:center;justify-content:center;font-size:14px;font-family:"Cuprum",sans-serif;text-transform:uppercase;color:#fff;background-color:#ee3643;border-radius:3px}
+.writeUs{box-sizing:border-box;min-width:300px;min-height:38px;text-align:center;text-transform:uppercase;background-color:#ee3643;color:#fff;border-radius:3px;box-shadow:inset 0 -5px 0 0 rgba(0,0,0,0.1);padding:11px 59px 11px 64px}
+.about_us{margin-bottom:86px}
+.container-about_us{min-height:375px}
+.aboutUs{display:flex;justify-content:center;box-sizing:border-box;width:220px;height:38px;align-items:center;text-transform:uppercase;background-color:#ee3643;color:#fff;border-radius:3px;box-shadow:inset 0 -5px 0 0 rgba(0,0,0,0.1)}
+.footer-container1{width:940px;margin:0 auto;padding:0 10px}
+.logo-box-footer{width:220px;height:68px;background-color:#ee3643;box-shadow:inset 0 -5px 0 0 rgba(0,0,0,0.24)}
+.logo-footer{width:136px;height:21px;margin-top:22px;margin-left:43px}
+.footer-back1{background-color:#32425c;padding-bottom:50px}
+.footer-top{display:flex;justify-content:space-between;margin-bottom:28px}
+.navigation-list1{display:flex;padding:0;margin:0;margin-top:38px;font-size:18px;line-height:24px}
+.navigation-list1 a{color:#f1f5f7}
+.navigation-list1-item{margin-right:59px}
+.navigation-list1 :last-child{margin-right:0}
+.contacts{margin:0;font-size:18px;line-height:24px;color:#f1f5f7;width:280px;font-weight:100;margin-left:49px}
+.contacts .contacts-adres{margin-top:5px;margin-left:9px;color:#32425c}
+.login-registration{width:290px;margin-left:50px}
+.login-registration-list{padding-left:10px;width:280px}
+.footer-middle{display:flex;justify-content:space-between}
+.navigation-list2{display:flex;padding:0;margin:0}
+.navigation-list2-item{margin-right:59px;font-size:18px;line-height:24px}
+.navigation-list2 :last-child{margin-right:0}
+.footer-bottom{background-color:#293449}
+.footer-container2{width:940px;margin:0 auto;padding:0 10px;display:flex;justify-content:space-between}
+.footer-bottom-text{margin:0;font-size:16px;line-height:18px;color:#fff;width:228px;margin-top:37px;margin-left:1px;font-weight:400;font-style:normal;font-stretch:normal;letter-spacing:normal;text-align:left}
+.icon-list{margin:0;padding:0;display:flex;margin-top:35px;margin-left:70px;margin-right:28px}
+.vk{position:absolute;content:"";text-indent:-1000px;overflow:hidden;background:url(..//img/svg-technomart/icon-vk.svg);width:26px;height:15px;background-repeat:no-repeat}
+.fb{position:absolute;content:"";text-indent:-1000px;overflow:hidden;background:url(..//img/svg-technomart/icon-fb.svg);width:12px;height:22px;background-repeat:no-repeat}
+.insta{position:absolute;text-indent:-1000px;overflow:hidden;background:url(..//img/svg-technomart/icon-insta.svg);width:21px;height:21px;background-repeat:no-repeat}
+.icon-item{display:flex;justify-content:center;align-items:center;width:42px;height:42px;margin-right:3px;background-color:#212a3a;border-radius:20px}
+.icon-list :last-child{margin-right:0}
+.links1{margin:0;padding:0;width:135px;color:#fff;font-size:16px;font-weight:400;font-style:normal;font-stretch:normal;line-height:1.13;letter-spacing:normal;text-align:left;margin-top:37px;margin-right:-10px}
+.links1 a{color:#ffd180}
+.links2{margin:0;width:96px;margin-left:-25px;margin-right:13px;margin-top:37px;font-size:16px;font-weight:400;font-style:normal;font-stretch:normal;line-height:1.13;letter-spacing:normal;text-align:left;color:#fff}
+.links2 a{color:#ffd180}
+.icon-item:hover{background-color:#ee3643}
+.icon-item:active{background-color:#ee3643}
+.links1 a:hover{text-decoration:underline}
+.links2 a:hover{text-decoration:underline}
+.links1 a:active{color:red;text-decoration:none}
+.links2 a:active{color:red;text-decoration:none}
+.mini-menu-list{margin:0;padding:0;list-style:none;display:flex;width:380px}
+.mini-menu{display:flex;align-items:center;height:60px;width:940px;margin:0 auto;padding:0 10px}
+.catalog-main{margin-top:-55px}
+.mini-item{position:relative;text-transform:uppercase;font-family:"PT Sans",sans-serif;padding-left:39px;font-size:13px;font-weight:400;font-style:normal;font-stretch:normal;line-height:1.38;letter-spacing:normal;text-align:left}
+.mini-menu-list :nth-child(1){padding:0}
+.mini-menu-list :nth-child(2){padding-left:56px}
+.mini-item a{color:#000;letter-spacing:.2px}
+.home{position:absolute;top:2px;left:-1px;width:14px;height:12px;text-indent:-1000px;overflow:hidden;background:url(..//img/svg-technomart/icon-home.svg) no-repeat 0 0}
+.mini-menu-list :nth-child(2):before{position:absolute;content:"";background:url(..//img/svg-technomart/icon-right-small.svg) no-repeat 0 0;width:8px;height:12px;top:2px;left:15px;left:30px}
+.mini-menu-list :nth-child(3):before{position:absolute;content:"";background:url(..//img/svg-technomart/icon-right-small.svg) no-repeat 0 0;width:8px;height:12px;top:2px;left:15px}
+.mini-menu-list :nth-child(4):before{position:absolute;content:"";background:url(..//img/svg-technomart/icon-right-small.svg) no-repeat 0 0;width:8px;height:12px;top:2px;left:15px}
+.catalog-title{font-size:30px;height:89px;background-color:#f2f6f8;display:flex;align-items:center;width:920px;margin:0 auto;padding:0 10px;margin-bottom:20px}
+.catalog-title p{margin-left:20px;text-transform:uppercase}
+.filters-container{width:220px}
+.filters-title-container{margin:0;width:220px;height:37px;display:flex;align-items:center;background-color:#f7f3ec;border-radius:3px}
+.filters-title-container p{margin:0;margin-left:19px;text-transform:uppercase;font-size:13px;font-family:"PT Sans",sans-serif}
+.title-price{margin:0;margin-top:16px;margin-bottom:18px;text-transform:uppercase;font-weight:700;font:17px;font-family:"PT Sans",sans-serif}
+.filters-manufacturers-list,.power-list{list-style:none;margin:0;padding:0}
+.filters-manufacturers-item input[type="checkbox"]{display:none}
+.filters-manufacturers-item{position:relative;margin-bottom:20px;text-transform:uppercase;font-size:15px;font-family:"PT Sans",sans-serif}
+.filters-manufacturers-item label:after{position:absolute;content:"";display:block;height:23px;width:23px;cursor:pointer;background:url(..//img/svg-technomart/checkbox-off.svg);top:-3px;bottom:0;left:0}
+.main-catalogAndFilters{width:940px;margin:0 auto;padding:0 10px;margin-bottom:20px}
+.filters-manufacturers-item label{padding-left:35px}
+.filters-manufacturers-item input[type="checkbox"]:checked + label:after{width:27px;background:url(..//img/svg-technomart/checkbox-on.svg)}
+.catalog-products-list{margin:0;padding:0;width:700px}
+.catalog-products-list li:nth-child(3n){margin-right:0}
+.catalog-products-item{position:relative;display:inline-block;width:218px;height:316px;margin-right:20px;margin-bottom:20px;line-height:20px;font-weight:700;text-align:center;border:solid 1px #eaeaea;background-color:#fff}
+.catalog-products-list{font-size:0}
+.catalog-products-item img{width:99%}
+.catalog-products-item .perforator-price{color:#fff;position:relative;width:80px;margin:10px auto;padding:10px 30px;background:#ee3643;border-radius:3px}
+.catalog-products-item .image{width:218px;height:168px}
+.catalog-products-item .perforator-price:after{content:"";position:absolute;top:0;right:-20px;width:0;height:0;border:20px solid #fff;border-left-color:#ee3643}
+.catalog-products-item .actions{position:absolute;top:0;left:0;width:99%;height:88px;padding:40px 0;background-color:rgba(255,255,255,0.9);z-index:10}
+.catalog-products-item .actions .buy,.catalog-products-item .actions .bookmark{display:block;width:129px;margin:0 auto;margin-bottom:7px;padding:7px 0;background-color:#63a63e;border:3px solid #63a63e;border-bottom-color:#367315;border-radius:3px;color:#fff;font-size:14px;font-weight:400;font-family:"Cuprum",sans-serif;line-height:18px;text-decoration:none;text-transform:uppercase}
+.catalog-products-item .actions .bookmark{color:#32425c;background:#fff;border-bottom-color:#63a63e}
+.catalog-products-item .actions{display:none}
+.catalog-products-item:hover .actions{display:block}
+.catalog-filters-list{display:flex;list-style:none;margin:0;padding:0;height:35px;background-color:#f7f3ec;align-items:center;border-radius:3px;margin-bottom:21px}
+.catalog-filters-item{text-transform:uppercase;font-size:13px;font-family:"PT Sans",sans-serif}
+.catalog-filters-list li:nth-child(1){margin-left:19px;margin-right:139px}
+.catalog-filters-list li:nth-child(2){margin-right:71px}
+.catalog-filters-list :nth-child(3){margin-right:65px;border-bottom:1px dotted #ee3643}
+.catalog-filters-list :nth-child(4){margin-right:46px;border-bottom:1px dotted #ee3643}
+.catalog-filters-list :nth-child(5){margin-right:21px}
+.red-arrow{fill:#ee3643}
+.catalog-filters-item-of{color:#000;opacity:.3}
+.catalog-filters-item-of:hover{opacity: 1;}
+.catalog-filters-item{color:#000}
+.catalog-filters-item-on{color:#ee3643}
+.catalog-filters-item-on:hover{color:#000;opacity:1}
+svg:hover #red-up1{fill:#000;}
+.main-catalogAndFilters{display:flex}
+.filters-WithButtons{width:220px;height:127px}
+.price-controls{position:relative;font-size:0;height:38px}
+.price-controls::after{content:"";position:absolute;width:1px;left:110px;top:15px;height:10px;background:#000;transform:rotate(90deg)}
+.range-controls{position:relative;margin:0;width:220px;height:80px;margin-bottom:8px;background-color:#f7f3ec;border-radius:3px}
+.price-controls label{width:220px;display:inline-block;font-size:17px;font-family:"PT Sans",sans-serif;line-height:38px;vertical-align:top;cursor:pointer}
+.price-controls .min-price{padding-left:10px;width:85px;border-radius:3px;background-color:#f7f3ec;height:38px}
+.price-controls .max-price{width:95px;margin-left:30px;border-radius:3px;background-color:#f7f3ec;height:38px}
+.price-controls input{padding:0;width:83px;margin:0;color:inherit;font:inherit;background:none;border:none}
+.max-price input[type="text"]{width:95px;text-align:center}
+.price-controls input[type="text"]{text-align:center}
+.range-controls .scale{position:absolute;top:38px;left:20px;height:2px;width:180px;background:rgba(255,255,255,0.3)}
+.range-controls .bar{height:3px;width:80%;background-color:#00ca74}
+.range-toggle{position:absolute;left:20px;top:28px;width:4px;height:4px;background:#ababab;border:8px solid #fff;border-radius:50%;box-shadow:0 2px 1px 0 rgba(0,1,1,0.2);cursor:pointer}
+.range-toggle-max{left:160px}
+.catalog-item{margin-left:21px}
+.catalog-products-list div{font-family:"PT Sans",Arial,sans-serif}
+.catalog-products-list :nth-child(3) .flag{position:absolute;top:-1px;right:-1px;width:60px;height:60px;text-indent:-1000px;overflow:hidden;z-index:20}
+.catalog-products-list :nth-child(3n) .perforator-price{margin-top:40px}
+.catalog-products-list :nth-child(3) .flag-new{background:url(../img/new-flag.png) no-repeat 0 0}
+.filters-manufacturers-title{margin-top:47px;text-transform:uppercase;font-family:"PT Sans",sans-serif;font-size:17px;font-weight:700;position:relative;font-weight:bold}
+.filters-manufacturers-title:before{position:absolute;content:"";width:220px;height:1px;background:#000;opacity:.2;top:-22px}
+.order-cabinet li:nth-child(1){list-style:none;text-decoration:underline;text-decoration-color:#32425c;margin-right:32px}
+.order-cabinet li:nth-child(2){text-decoration:underline;text-decoration-color:#32425c}
+.order-cabinet{margin:0;padding:0;display:flex;margin-top:7px;margin-left:9px}
+.order-cabinet a{color:#32425c;font-size:16px;font-family:"Cuprum",sans-serif}
+.nickename p{margin:0;padding:0;margin-left:46px;font-size:21px;font-family:"Cuprum",sans-serif;color:#000}
+.nickename{position:relative;width:299px;height:45px;display:flex;align-items:center;margin-left:-8px;background-color:#fff}
+.nickename:before{position:absolute;content:"";width:20px;height:18px;background:url(..//img/svg-technomart/icon-user.svg) no-repeat;left:11px}
+.exit{position:absolute;content:"";width:20px;height:17px;background:url(..//img/svg-technomart/icon-logout.svg) no-repeat;right:11px}
+.number:before{position:absolute;content:"";width:18px;height:19px;background:url(..//img/svg-technomart/icon-phone.svg) no-repeat;top:10px;left:10px}
+.title-power{position:relative;margin:0;padding:0;margin-top:44px;text-transform:uppercase;font-size:17px;font-family:"PT Sans",sans-serif;font-weight:700;letter-spacing:.7px;margin-bottom:20px}
+.title-power:before{position:absolute;content:"";width:220px;height:1px;background:#000;opacity:.2;top:-22px}
+.power-item input[type="radio"]{display:none}
+.power-item{position:relative;padding-left:35px;text-transform:uppercase;font-size:15px;font-family:"PT Sans",sans-serif;margin-bottom:20px}
+.power-item label:after{position:absolute;content:"";display:block;height:25px;width:25px;cursor:pointer;background:url(..//img/svg-technomart/radio-off.svg);top:-3px;bottom:0;left:0}
+.power-item input[type="radio"]:checked + label:after{background:url(..//img/svg-technomart/radio-on.svg)}
+.basket-catalog{background-color:#ee3643}
+.basket-catalog::before{content:"";position:absolute;top:22px;left:18px;width:15px;height:15px;background-image:url(..//img/svg-technomart/icon-cart.svg);background-repeat:no-repeat;background-position:0 0;opacity:.5}
+.basket-catalog:hover::before{opacity:1}
+.basket-catalog:active{opacity:.5}
+.power-list{margin-bottom:76px}
+.filters-show{display:flex;align-items:center;justify-content:center;width:140px;height:37px;text-transform:uppercase;font-family:"PT Sans",sans-serif;font-size:13px;border:solid 1px #e5e5e5;border-radius:3px}
+.profile{z-index:2}
+.aboutDrelContainer{width:100%;background-color:#f2f6f8;height:261px}
+.aboutDrel-main{width:940px;margin:0 auto;padding:0 10px;padding-top:63px}
+.title-aboutDrel{font-size:30px;letter-spacing:.2px;font-weight:100}
+.text-aboutDrel{margin:0;padding:0;margin-top:23px;font-size:13px;font-family:"PT Sans",sans-serif;letter-spacing:.14px;line-height:1.9}
+.text-aboutDrel p{margin:0;padding:0}
+.catalog-buttons{padding:0;margin:0;margin-top:32px;display:flex;margin-left:240px;margin-bottom:60px}
+.catalog-buttons-items{width:37px;height:37px;display:flex;align-items:center;justify-content:center;margin-right:9px;font-size:13px;font-family:"PT Sans",sans-serif;border:solid 1px #e5e5e5;border-radius:3px}
+.catalog-buttons li:nth-child(1){background-color:#ee3643;border:solid 1px #ee3643;color:#fff}
+.catalog-buttons li:nth-child(4){width:140px;height:37px;display:flex;align-items:center;justify-content:center;margin-right:0;font-size:13px;font-family:"PT Sans",sans-serif;text-transform:uppercase;border:solid 1px #e5e5e5;border-radius:3px}
+.footer-middle .contacts{width:334px;margin:0;padding:0;margin-left:3px}
+.InBasket{display:none;width:620px;height:282px;position:relative}
+.container-InBasket{position:relative}
+.container-InBasket:before{position:absolute;content:"";width:66px;height:66px;background:url(..//img/greengalka.png) no-repeat;left:81px;bottom:-15px}
+.container-InBasket p{margin:0;padding:0;margin-left:179px;margin-top:68px;font-family:"Cuprum",sans-serif;font-size:30px}
+.buttons-list{margin:0;padding:0;list-style:none;display:flex}
+.buttons-list-item{margin-right:20px}
+.buttons-InBasket{width:620px;height:112px;background-color:#f1f1f1;margin-top:68px;display:flex;align-items:center;justify-content:center}
+.form-order{width:220px;height:38px;background-color:#ee3643;display:flex;align-items:center;justify-content:center;border-radius:3px}
+.next-shoping{width:220px;height:38px;display:flex;align-items:center;justify-content:center;border-radius:3px;background-color:#fff}
+.InBasket:hover{opacity:1}
+.InBasket:before,.InBasket:after{position:absolute;top:14px;right:14.5px;content:' ';height:21px;width:3px;background-color:#ee3643;border-radius:3px}
+.InBasket:before{transform:rotate(45deg)}
+.InBasket:after{transform:rotate(-45deg)}
